@@ -1,0 +1,15 @@
+I"Ä<h1 id="install-32bit-package-di-linux">Install 32bit Package Di Linux</h1>
+<h2 id="arch-linux">Arch Linux</h2>
+<p>Untuk Arch Linux Pertama2 Kalian Harus Mengaktifkan <strong>Multilib</strong> dahulu di <code class="language-plaintext highlighter-rouge">/etc/pacman.conf</code>.<br />
+untuk penginstalan packagenya, caranya:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman lib32-*</code></p>
+
+<h2 id="ubuntu--debian-based">Ubuntu / Debian Based</h2>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-get install *:i386</code></p>
+
+<blockquote class="prompt-info">
+  <p><code class="language-plaintext highlighter-rouge">*</code>  adalah nama packagenya</p>
+</blockquote>
+:ET

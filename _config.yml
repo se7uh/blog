@@ -1,0 +1,16 @@
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+  - index.md
+  - project.md
+  - about.md
+
+footer: 'Lihat Kode di <a href="https://github.com/ajeskepuh/ajeskepuh.github.io">Github</a>'
+
+style: hacker # dark (default) or light
+listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag

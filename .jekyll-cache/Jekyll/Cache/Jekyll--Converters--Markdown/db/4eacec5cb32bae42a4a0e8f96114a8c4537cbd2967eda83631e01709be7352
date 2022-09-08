@@ -1,0 +1,5 @@
+I"I<h1 id="install-32bit-package-di-linux">Install 32bit Package Di Linux</h1>
+<h2 id="arch-linux">Arch Linux</h2>
+<p>Untuk Arch Linux Pertama2 Kalian Harus Mengaktifkan <strong>Multilib</strong> dahulu di <code class="language-plaintext highlighter-rouge">/etc/pacman.conf</code>.<br />
+untuk penginstalan packagenya, caranya:</p>
+:ET
