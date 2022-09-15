@@ -6,11 +6,11 @@ categories: [Linux, Tutorial]
 ---
 
 ### Mengatasi Mouse Di Wine Kehilangan Fokus
-I had a problem one year ago, when doing alt+tab in some games in wine. Every time I did alt+tab I lost the focus and the game didn´t get my mouse and keyboard input. I tried with a solution that I found in some page that said that in Regedit, I had to create a new entry named "UseTakeFocus" with value "N" in `HKEY_CURRENT_USER\Software\Wine\X11 Driver`
+Saya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permainan tidak mendapatkan input mouse dan keyboard saya. Saya mencoba dengan solusi yang saya temukan di beberapa halaman yang mengatakan bahwa di Regedit, saya harus membuat entri baru bernama "UseTakeFocus" dengan nilai "N" di `HKEY_CURRENT_USER\Software\Wine\X11 Driver`
 
-> Create New Folder if you don't see 'X11 Driver' folder.
+> Buat folder baru jika tidak lihat folder 'X11 Driver'.
 {: .prompt-info }
 
-This worked, and I was able to alt+tab without any problem.
+Ini berhasil, dan saya bisa alt+tab tanpa masalah.
 
-Reference : [Manjaro Forum](https://archived.forum.manjaro.org/t/lose-focus-of-window-in-wine/127097) 
+Refrensi : [Forum Manjaro](https://archived.forum.manjaro.org/t/lose-focus-of-window-in-wine/127097) 

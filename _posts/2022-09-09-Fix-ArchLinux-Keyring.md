@@ -15,4 +15,4 @@ di arch linux secara bersamaan. <br>
 Trus gimana cara ngatasinya?<br>
 Gampang kalian hanya perlu install paket `archlinux-keyring` terlebih dahulu, Caranya tinggal install seperti biasa<br>
 `sudo pacman -S archlinux-keyring`<br>
-Dan selamat sekarang anda sudah bisa upgrade paket di arch linux
+Dan selamat sekarang anda sudah bisa upgrade paket di arch linux :)

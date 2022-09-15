@@ -7,7 +7,7 @@ categories: [Linux, Tutorial]
 
 # Hello Welcome back
 jadi saya mau bagi pengalaman saya saat menggunakan arch linux, yaitu cara auto mount ntfs file system saat booting.
-edit file `/etc/fstab` dan langsung copas saja config di bawah ini:
+edit file `/etc/fstab` dan langsung copas saja config di bawah ini dan edit sesuai dengan uid anda:
 
 `#/dev/sda2 (WINDOWS 7)`<br>
 `UUID=*UUID_partisinya /run/media/azizz/B664A3E364A3A499 ntfs-3g uid=azizz,gid=wheel 0 0`
