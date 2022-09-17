@@ -1,3 +1,0 @@
-I"<h3 id="mengatasi-mouse-di-wine-kehilangan-fokus">Mengatasi Mouse Di Wine Kehilangan Fokus</h3>
-<p>I had a problem one year ago, when doing alt+tab in some games in wine. Every time I did alt+tab I lost the focus and the game didn´t get my mouse and keyboard input. I tried with a solution that I found in some page that said that in Regedit, I had to create a new entry named “UseTakeFocus” with value “N” in <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\Software\Wine\X11 Driver</code></p>
-:ET
