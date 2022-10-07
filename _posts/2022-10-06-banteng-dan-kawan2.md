@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Banteng pdi perjuangan
-date: 2022-10-07 18:32:00 -0500
+date: 2022-10-06 18:32:00 -0500
 categories: [Linux, Tutorial]
 ---
 Halo pengguna Linux.<br>
