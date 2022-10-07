@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install 32bit Package di Linux
+title: Install paket 32bit di Linux
 date: 2022-05-31 18:32:00 -0500
 categories: [Linux, Tutorial]
 ---

@@ -9,7 +9,7 @@ header_pages:
 
 footer: 'Lihat Kode di <a href="https://github.com/ajeskepuh/ajeskepuh.github.io">Github</a>'
 
-style: hacker # dark (default) or light
+style: dark # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
