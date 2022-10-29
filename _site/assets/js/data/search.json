@@ -1,0 +1,259 @@
+[
+  
+  {
+    "title": "Wine Tidak ada Suara",
+    "url": "/posts/wine-gak-ada-suara/",
+    "categories": "Linux, Tutorial",
+    "tags": "wine, emulator",
+    "date": "2022-10-19 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Assalamualaikum brother, jadi hari ini saya ada masalah saat mau main game di linux pake wine (pakai apa lagi kalau gk pake ini wkwk). Jadi saat game nya dimulai kok gk ada suara?? saya pun cari ca..."
+  },
+  
+  {
+    "title": "Banteng pdi perjuangan",
+    "url": "/posts/banteng-dan-kawan2/",
+    "categories": "Linux, Trik",
+    "tags": "trik, canda",
+    "date": "2022-10-07 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Halo pengguna Linux.kalian mau tampilan neofetch kalian tampak seperti ini?kalau begitu mari simak tutor berikut ini !!caranya gampang, kalian download dulu file nya disini atau disini https://bit...."
+  },
+  
+  {
+    "title": "Mengatasi Arch linux pgp signature corrupted",
+    "url": "/posts/Fix-ArchLinux-Keyring/",
+    "categories": "Linux, Tutorial",
+    "tags": "arch linux",
+    "date": "2022-09-09 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "#HalooJadi kamu mau upgrade paket di arch linux tapi malah dapat error kayak gini ?error: jansson: signature from \"Eli Schwartz &lt;eschwartz@archlinux.org&gt;\" is marginal trust:: File /var/cache/..."
+  },
+  
+  {
+    "title": "Cara Menambah PATH di Linux",
+    "url": "/posts/cara-menambah-PATH-di-linux/",
+    "categories": "Linux, Tutorial",
+    "tags": "",
+    "date": "2022-08-11 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Assalamualaikum.halo, ini cara Cara Menambah PATH di linux.oke caranya tambah ini di shell source yg kita gunakan:export PATH=\"$HOME/.local/bin:$PATH\"setelah itu kita perlu restart shell source yan..."
+  },
+  
+  {
+    "title": "Cara install tkinter di Arch linux",
+    "url": "/posts/install-tkinter-arch-linux/",
+    "categories": "Linux, Tutorial",
+    "tags": "arch linux",
+    "date": "2022-07-19 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Arch Linux adalah distro yang berbeda dari distro kebanyakan, karena distro kebanyakan menggunakan Distro berbasis Debian/Ubuntu oleh karena itu saya sedikit kesusahan saat mau mencari nama paket T..."
+  },
+  
+  {
+    "title": "Cara mengganti MAC ADDRESS di linux",
+    "url": "/posts/cara-mengganti-mac-di-linux/",
+    "categories": "Linux, Tutorial",
+    "tags": "wifi, trik",
+    "date": "2022-07-19 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Assalamualaikum semua, jadi kali ini saya mau share cara mengganti Mac Address Di Linux kalian ;)Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling dulu dan kenapa saya m..."
+  },
+  
+  {
+    "title": "Alternatif untuk mpsyt (Mps-YouTube)",
+    "url": "/posts/Mpsyt-alternative/",
+    "categories": "Linux, Alternatif",
+    "tags": "",
+    "date": "2022-07-19 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "assalamualaikum, halo kawan. Jadi saya mau sher alternatif mpsyt.buat kalian yang tidak tau, mpsyt adalah program dimana kalian bisa meliat/mendengar video/music youtube lewat terminal dan seperti ..."
+  },
+  
+  {
+    "title": "Cara Auto Mount NTFS di linux",
+    "url": "/posts/cara-automount-ntfs-linux/",
+    "categories": "Linux, Tutorial",
+    "tags": "",
+    "date": "2022-06-15 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Hello Welcome backjadi saya mau bagi pengalaman saya saat menggunakan arch linux, yaitu cara auto mount ntfs file system saat booting.edit file /etc/fstab dan langsung copas saja config di bawah in..."
+  },
+  
+  {
+    "title": "Mengatasi Opensearch tidak berfungsi di chrome",
+    "url": "/posts/fix-opensearch/",
+    "categories": "browser",
+    "tags": "chrome",
+    "date": "2022-06-01 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Tinggal Pergi ke Search Setting di Setting chrome kayak gambar dibawah ini dan tambah web mana yang mau kalian tambah  gambar milik AbkarinoRefrensi : StackOverflow"
+  },
+  
+  {
+    "title": "cara Install paket 32bit di Linux",
+    "url": "/posts/Install-32bit-package-di-arch/",
+    "categories": "Linux, Tutorial",
+    "tags": "",
+    "date": "2022-06-01 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Install 32bit Package Di LinuxArch LinuxUntuk Arch Linux Pertama2 Kalian Harus Mengaktifkan Multilib dahulu di /etc/pacman.conf.untuk penginstalan packagenya, caranya:sudo pacman lib32-*Ubuntu / De..."
+  },
+  
+  {
+    "title": "Mengatasi Mouse Kehilangan fokus di wine",
+    "url": "/posts/Fix-wine-mouse-lose-control/",
+    "categories": "Linux, Tutorial",
+    "tags": "wine, emulator",
+    "date": "2022-06-01 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Mengatasi Mouse Di Wine Kehilangan FokusSaya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permaina..."
+  },
+  
+  {
+    "title": "Mengatasi Mouse Kehilangan fokus di wine",
+    "url": "/posts/Fix-wine-kehilangan-kontrol/",
+    "categories": "Linux, Tutorial",
+    "tags": "wine, emulator",
+    "date": "2022-06-01 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Mengatasi Mouse Di Wine Kehilangan FokusSaya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permaina..."
+  },
+  
+  {
+    "title": "Enable Google Page Views",
+    "url": "/posts/enable-google-pv/",
+    "categories": "Chirpy, Tutor",
+    "tags": "google analytics, pageviews",
+    "date": "2021-01-04 06:32:00 +0700",
+    
+
+
+
+
+
+    "snippet": "  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature o..."
+  },
+  
+  {
+    "title": "Customize the Favicon",
+    "url": "/posts/customize-the-favicon/",
+    "categories": "Chirpy, Tutor",
+    "tags": "favicon",
+    "date": "2019-08-10 23:34:00 +0700",
+    
+
+
+
+
+
+    "snippet": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons..."
+  },
+  
+  {
+    "title": "Getting Started",
+    "url": "/posts/getting-started/",
+    "categories": "Chirpy, Tutor",
+    "tags": "getting started",
+    "date": "2019-08-09 19:55:00 +0700",
+    
+
+
+
+
+
+    "snippet": "PrerequisitesFollow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.InstallationCreating a..."
+  },
+  
+  {
+    "title": "Writing a New Post",
+    "url": "/posts/write-a-new-post/",
+    "categories": "Chirpy, Tutor",
+    "tags": "writing",
+    "date": "2019-08-08 13:10:00 +0700",
+    
+
+
+
+
+
+    "snippet": "This post will guide you how to write a post on Chirpy theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be..."
+  },
+  
+  {
+    "title": "Text and Typography",
+    "url": "/posts/text-and-typography/",
+    "categories": "Chirpy, Demo",
+    "tags": "typography",
+    "date": "2019-08-08 10:33:00 +0700",
+    
+
+
+
+
+
+    "snippet": "This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.TitlesH1 - headingH2 - headingH3 - headingH4 ..."
+  }
+  
+]
+
