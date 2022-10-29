@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install paket 32bit di Linux
+title: cara Install paket 32bit di Linux
 date: 2022-05-31 18:32:00 -0500
 categories: [Linux, Tutorial]
 ---
@@ -10,12 +10,16 @@ categories: [Linux, Tutorial]
 Untuk Arch Linux Pertama2 Kalian Harus Mengaktifkan **Multilib** dahulu di `/etc/pacman.conf`.<br>
 untuk penginstalan packagenya, caranya:
 
-`sudo pacman lib32-*`
+```terminal
+sudo pacman lib32-*
+```
 
 
 ## Ubuntu / Debian Based
 
-`sudo apt-get install *:i386`
+```terminal
+sudo apt-get install *:i386
+```
 
 > `*`  adalah nama packagenya
 {: .prompt-info }

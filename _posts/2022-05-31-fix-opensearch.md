@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Mengatasi Opensearch tidak berfungsi
+title: Mengatasi Opensearch tidak berfungsi di chrome
 date: 2022-05-31 18:32:00 -0500
-categories: browser
+categories: [browser]
+tags: [chrome]
 ---
 
 
-Tinggal Pergi ke Search Setting di Setting chrome kayak gambar dibawah ini
-![image info](https://i.stack.imgur.com/J1sGE.png)
-
-Refrensi : [StackOverflow](https://stackoverflow.com/questions/65773991/how-to-implement-chromium-opensearch)
+Tinggal Pergi ke Search Setting di Setting chrome kayak gambar dibawah ini dan tambah web mana yang mau kalian tambah
+![image info](/gambar/opensearch.webp)
+> gambar milik [Abkarino](https://stackoverflow.com/users/3399564/abkarino)
+<br>Refrensi : [StackOverflow](https://stackoverflow.com/a/65812142/15596956)

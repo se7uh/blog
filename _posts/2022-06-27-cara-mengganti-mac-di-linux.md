@@ -1,5 +1,9 @@
 ---
 layout: post
+title: Cara mengganti MAC ADDRESS di linux
+date: 2022-07-18 18:32:00 -0500
+categories: [Linux, Tutorial]
+tags: [wifi, trik]
 ---
 
 Assalamualaikum semua, jadi kali ini saya mau share cara mengganti Mac Address Di Linux kalian ;)<br />
@@ -10,19 +14,29 @@ Pertama Kalian harus tau wifi interface kalian yang mau di down dengan ifconfig,
 ## Cara kedua
 kalian harus meng-down wifi interface kalian dengan cara :
 ### Debian/Ubuntu
-`sudo ifconfig INTERFACE down`
+```terminal
+sudo ifconfig INTERFACE down
+```
 ### Arch Linux
-`sudo ip link set INTERFACE down`<br />
+```terminal
+sudo ip link set INTERFACE down
+```
 untuk arch linux juga bisa menggunakan ifconfig tapi harus menginstall 'net-tools' terlebih dahulu.
 ## Cara Ketiga
-Setelah wifi interface nya sudah down saat nya kita menggunakan 'macchanger' untuk mengganti Mac Address kita Dengan cara :<br>
-`sudo macchanger -A INTERFACE`<br>
+Setelah wifi interface nya sudah down saat nya kita menggunakan `macchanger` untuk mengganti Mac Address kita Dengan cara :
+```terminal
+sudo macchanger -A INTERFACE
+```
 setelah itu kalian akan mendapatkan Mac Address baru.
 ## Cara Keempat
 Setelah kalian mendapat Mac Address baru saat nya kita menghidupkan lagi wifi interface yang tadi kita matikan/down dengan cara :
 ### Debian/Ubuntu
-`sudo ifconfig INTERFACE up`
+```terminal
+sudo ifconfig INTERFACE up
+```
 ### Arch Linux
-`sudo ip link set INTERFACE up`
+```terminal
+sudo ip link set INTERFACE up
+```
 
 Dan Selamat Anda telah mengganti Mac Address Anda :)
