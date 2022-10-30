@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://0.0.0.0:4000/</id>
+  <id>http://localhost:4000/cyvass.github.io/</id>
   <title>./Cyvas Blog</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-10-30T00:15:39+07:00</updated>
+  <updated>2022-10-31T02:18:43+07:00</updated>
   <author>
     <name>Nasrul Aziz</name>
-    <uri>http://0.0.0.0:4000/</uri>
+    <uri>http://localhost:4000/cyvass.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/cyvass.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="id-ID"
-    href="http://0.0.0.0:4000/"/>
+    href="http://localhost:4000/cyvass.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <rights> © 2022 Nasrul Aziz </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/cyvass.github.io/assets/img/favicons/favicon.ico</icon>
+  <logo>/cyvass.github.io/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Wine Tidak ada Suara</title>
-    <link href="http://0.0.0.0:4000/posts/wine-gak-ada-suara/" rel="alternate" type="text/html" title="Wine Tidak ada Suara" />
+    <link href="http://localhost:4000/cyvass.github.io/posts/wine-gak-ada-suara/" rel="alternate" type="text/html" title="Wine Tidak ada Suara" />
     <published>2022-10-19T06:32:00+07:00</published>
   
     <updated>2022-10-19T06:32:00+07:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/wine-gak-ada-suara/</id>
-    <content src="http://0.0.0.0:4000/posts/wine-gak-ada-suara/" />
+    <id>http://localhost:4000/cyvass.github.io/posts/wine-gak-ada-suara/</id>
+    <content src="http://localhost:4000/cyvass.github.io/posts/wine-gak-ada-suara/" />
     <author>
       <name>Nasrul Aziz</name>
     </author>
@@ -60,13 +60,13 @@ sudo pacman -S lib32-libpulse
   
   <entry>
     <title>Banteng pdi perjuangan</title>
-    <link href="http://0.0.0.0:4000/posts/banteng-dan-kawan2/" rel="alternate" type="text/html" title="Banteng pdi perjuangan" />
+    <link href="http://localhost:4000/cyvass.github.io/posts/banteng-dan-kawan2/" rel="alternate" type="text/html" title="Banteng pdi perjuangan" />
     <published>2022-10-07T06:32:00+07:00</published>
   
     <updated>2022-10-29T23:34:10+07:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/banteng-dan-kawan2/</id>
-    <content src="http://0.0.0.0:4000/posts/banteng-dan-kawan2/" />
+    <id>http://localhost:4000/cyvass.github.io/posts/banteng-dan-kawan2/</id>
+    <content src="http://localhost:4000/cyvass.github.io/posts/banteng-dan-kawan2/" />
     <author>
       <name>Nasrul Aziz</name>
     </author>
@@ -105,13 +105,13 @@ kalian paham dengan perintah yg kalian lihat diatas? ...
   
   <entry>
     <title>Mengatasi Arch linux pgp signature corrupted</title>
-    <link href="http://0.0.0.0:4000/posts/Fix-ArchLinux-Keyring/" rel="alternate" type="text/html" title="Mengatasi Arch linux pgp signature corrupted" />
+    <link href="http://localhost:4000/cyvass.github.io/posts/Fix-ArchLinux-Keyring/" rel="alternate" type="text/html" title="Mengatasi Arch linux pgp signature corrupted" />
     <published>2022-09-09T06:32:00+07:00</published>
   
     <updated>2022-10-29T23:34:10+07:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/Fix-ArchLinux-Keyring/</id>
-    <content src="http://0.0.0.0:4000/posts/Fix-ArchLinux-Keyring/" />
+    <id>http://localhost:4000/cyvass.github.io/posts/Fix-ArchLinux-Keyring/</id>
+    <content src="http://localhost:4000/cyvass.github.io/posts/Fix-ArchLinux-Keyring/" />
     <author>
       <name>Nasrul Aziz</name>
     </author>
@@ -147,13 +147,13 @@ oke, pertama perlu k...
   
   <entry>
     <title>Cara Menambah PATH di Linux</title>
-    <link href="http://0.0.0.0:4000/posts/cara-menambah-PATH-di-linux/" rel="alternate" type="text/html" title="Cara Menambah PATH di Linux" />
+    <link href="http://localhost:4000/cyvass.github.io/posts/cara-menambah-PATH-di-linux/" rel="alternate" type="text/html" title="Cara Menambah PATH di Linux" />
     <published>2022-08-11T06:32:00+07:00</published>
   
     <updated>2022-10-29T23:34:10+07:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/cara-menambah-PATH-di-linux/</id>
-    <content src="http://0.0.0.0:4000/posts/cara-menambah-PATH-di-linux/" />
+    <id>http://localhost:4000/cyvass.github.io/posts/cara-menambah-PATH-di-linux/</id>
+    <content src="http://localhost:4000/cyvass.github.io/posts/cara-menambah-PATH-di-linux/" />
     <author>
       <name>Nasrul Aziz</name>
     </author>
@@ -197,13 +197,13 @@ oke itu ajah, konten ini buat yang paham2 ajah kalo gk paham ngapain disini :u
   
   <entry>
     <title>Cara install tkinter di Arch linux</title>
-    <link href="http://0.0.0.0:4000/posts/install-tkinter-arch-linux/" rel="alternate" type="text/html" title="Cara install tkinter di Arch linux" />
+    <link href="http://localhost:4000/cyvass.github.io/posts/install-tkinter-arch-linux/" rel="alternate" type="text/html" title="Cara install tkinter di Arch linux" />
     <published>2022-07-19T06:32:00+07:00</published>
   
     <updated>2022-10-29T23:34:10+07:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/install-tkinter-arch-linux/</id>
-    <content src="http://0.0.0.0:4000/posts/install-tkinter-arch-linux/" />
+    <id>http://localhost:4000/cyvass.github.io/posts/install-tkinter-arch-linux/</id>
+    <content src="http://localhost:4000/cyvass.github.io/posts/install-tkinter-arch-linux/" />
     <author>
       <name>Nasrul Aziz</name>
     </author>

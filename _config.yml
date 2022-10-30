@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://cyvass.github.io'
+url: 'https://cyvass.github.io/'
 
 github:
   username: cyvass             # change to your github username
@@ -71,14 +71,14 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode:  dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: ''
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/gambar/akuh.webp'
@@ -103,7 +103,7 @@ comments:
     category_id:
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
-    lang:            # optional, default to the value of `site.lang`
+    lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
