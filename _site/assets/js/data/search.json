@@ -1,8 +1,23 @@
 [
   
   {
+    "title": "p inpo",
+    "url": "/posts/butuh-bantuan/",
+    "categories": "",
+    "tags": "",
+    "date": "2022-11-01 06:02:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Assalamualaikum Kawan, saya butuh bantuan kalian.kalau kalian nganggur dan punya ide untuk nulis blog,bisa kirim ke email saya aziznasrul85@gmail.comsuwun :p"
+  },
+  
+  {
     "title": "Wine Tidak ada Suara",
-    "url": "/cyvass.github.io/posts/wine-gak-ada-suara/",
+    "url": "/posts/wine-gak-ada-suara/",
     "categories": "Linux, Tutorial",
     "tags": "wine, emulator",
     "date": "2022-10-19 06:32:00 +0700",
@@ -17,7 +32,7 @@
   
   {
     "title": "Banteng pdi perjuangan",
-    "url": "/cyvass.github.io/posts/banteng-dan-kawan2/",
+    "url": "/posts/banteng-dan-kawan2/",
     "categories": "Linux, Trik",
     "tags": "trik, canda",
     "date": "2022-10-07 06:32:00 +0700",
@@ -32,7 +47,7 @@
   
   {
     "title": "Mengatasi Arch linux pgp signature corrupted",
-    "url": "/cyvass.github.io/posts/Fix-ArchLinux-Keyring/",
+    "url": "/posts/Fix-ArchLinux-Keyring/",
     "categories": "Linux, Tutorial",
     "tags": "arch linux",
     "date": "2022-09-09 06:32:00 +0700",
@@ -47,7 +62,7 @@
   
   {
     "title": "Cara Menambah PATH di Linux",
-    "url": "/cyvass.github.io/posts/cara-menambah-PATH-di-linux/",
+    "url": "/posts/cara-menambah-PATH-di-linux/",
     "categories": "Linux, Tutorial",
     "tags": "",
     "date": "2022-08-11 06:32:00 +0700",
@@ -62,7 +77,7 @@
   
   {
     "title": "Cara install tkinter di Arch linux",
-    "url": "/cyvass.github.io/posts/install-tkinter-arch-linux/",
+    "url": "/posts/install-tkinter-arch-linux/",
     "categories": "Linux, Tutorial",
     "tags": "arch linux",
     "date": "2022-07-19 06:32:00 +0700",
@@ -77,7 +92,7 @@
   
   {
     "title": "Cara mengganti MAC ADDRESS di linux",
-    "url": "/cyvass.github.io/posts/cara-mengganti-mac-di-linux/",
+    "url": "/posts/cara-mengganti-mac-di-linux/",
     "categories": "Linux, Tutorial",
     "tags": "wifi, trik",
     "date": "2022-07-19 06:32:00 +0700",
@@ -92,7 +107,7 @@
   
   {
     "title": "Alternatif untuk mpsyt (Mps-YouTube)",
-    "url": "/cyvass.github.io/posts/Mpsyt-alternative/",
+    "url": "/posts/Mpsyt-alternative/",
     "categories": "Linux, Alternatif",
     "tags": "",
     "date": "2022-07-19 06:32:00 +0700",
@@ -107,7 +122,7 @@
   
   {
     "title": "Cara Auto Mount NTFS di linux",
-    "url": "/cyvass.github.io/posts/cara-automount-ntfs-linux/",
+    "url": "/posts/cara-automount-ntfs-linux/",
     "categories": "Linux, Tutorial",
     "tags": "",
     "date": "2022-06-15 06:32:00 +0700",
@@ -122,7 +137,7 @@
   
   {
     "title": "Mengatasi Opensearch tidak berfungsi di chrome",
-    "url": "/cyvass.github.io/posts/fix-opensearch/",
+    "url": "/posts/fix-opensearch/",
     "categories": "browser",
     "tags": "chrome",
     "date": "2022-06-01 06:32:00 +0700",
@@ -137,7 +152,7 @@
   
   {
     "title": "cara Install paket 32bit di Linux",
-    "url": "/cyvass.github.io/posts/Install-32bit-package-di-arch/",
+    "url": "/posts/Install-32bit-package-di-arch/",
     "categories": "Linux, Tutorial",
     "tags": "",
     "date": "2022-06-01 06:32:00 +0700",
@@ -152,22 +167,7 @@
   
   {
     "title": "Mengatasi Mouse Kehilangan fokus di wine",
-    "url": "/cyvass.github.io/posts/Fix-wine-mouse-lose-control/",
-    "categories": "Linux, Tutorial",
-    "tags": "wine, emulator",
-    "date": "2022-06-01 06:32:00 +0700",
-    
-
-
-
-
-
-    "snippet": "Mengatasi Mouse Di Wine Kehilangan FokusSaya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permaina..."
-  },
-  
-  {
-    "title": "Mengatasi Mouse Kehilangan fokus di wine",
-    "url": "/cyvass.github.io/posts/Fix-wine-kehilangan-kontrol/",
+    "url": "/posts/Fix-wine-kehilangan-kontrol/",
     "categories": "Linux, Tutorial",
     "tags": "wine, emulator",
     "date": "2022-06-01 06:32:00 +0700",
@@ -182,7 +182,7 @@
   
   {
     "title": "Enable Google Page Views",
-    "url": "/cyvass.github.io/posts/enable-google-pv/",
+    "url": "/posts/enable-google-pv/",
     "categories": "Chirpy, Tutor",
     "tags": "google analytics, pageviews",
     "date": "2021-01-04 06:32:00 +0700",
@@ -197,7 +197,7 @@
   
   {
     "title": "Customize the Favicon",
-    "url": "/cyvass.github.io/posts/customize-the-favicon/",
+    "url": "/posts/customize-the-favicon/",
     "categories": "Chirpy, Tutor",
     "tags": "favicon",
     "date": "2019-08-10 23:34:00 +0700",
@@ -212,7 +212,7 @@
   
   {
     "title": "Getting Started",
-    "url": "/cyvass.github.io/posts/getting-started/",
+    "url": "/posts/getting-started/",
     "categories": "Chirpy, Tutor",
     "tags": "getting started",
     "date": "2019-08-09 19:55:00 +0700",
@@ -227,7 +227,7 @@
   
   {
     "title": "Writing a New Post",
-    "url": "/cyvass.github.io/posts/write-a-new-post/",
+    "url": "/posts/write-a-new-post/",
     "categories": "Chirpy, Tutor",
     "tags": "writing",
     "date": "2019-08-08 13:10:00 +0700",
@@ -242,7 +242,7 @@
   
   {
     "title": "Text and Typography",
-    "url": "/cyvass.github.io/posts/text-and-typography/",
+    "url": "/posts/text-and-typography/",
     "categories": "Chirpy, Demo",
     "tags": "typography",
     "date": "2019-08-08 10:33:00 +0700",

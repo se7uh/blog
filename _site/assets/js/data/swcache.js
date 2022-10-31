@@ -1,42 +1,43 @@
 const resource = [
     /* --- CSS --- */
-    '/cyvass.github.io/assets/css/style.css',
+    '/assets/css/style.css',
 
     /* --- PWA --- */
-    '/cyvass.github.io/app.js',
-    '/cyvass.github.io/sw.js',
+    '/app.js',
+    '/sw.js',
 
     /* --- HTML --- */
-    '/cyvass.github.io/index.html',
-    '/cyvass.github.io/404.html',
+    '/index.html',
+    '/404.html',
 
     
-        '/cyvass.github.io/categories/',
+        '/categories/',
     
-        '/cyvass.github.io/tags/',
+        '/tags/',
     
-        '/cyvass.github.io/archives/',
+        '/archives/',
     
-        '/cyvass.github.io/about/',
+        '/about/',
     
 
     /* --- Favicons & compressed JS --- */
     
     
-        '/cyvass.github.io/assets/img/favicons/android-chrome-192x192.png',
-        '/cyvass.github.io/assets/img/favicons/android-chrome-512x512.png',
-        '/cyvass.github.io/assets/img/favicons/apple-touch-icon.png',
-        '/cyvass.github.io/assets/img/favicons/favicon-16x16.png',
-        '/cyvass.github.io/assets/img/favicons/favicon-32x32.png',
-        '/cyvass.github.io/assets/img/favicons/favicon.ico',
-        '/cyvass.github.io/assets/img/favicons/mstile-150x150.png',
-        '/cyvass.github.io/assets/js/dist/categories.min.js',
-        '/cyvass.github.io/assets/js/dist/commons.min.js',
-        '/cyvass.github.io/assets/js/dist/home.min.js',
-        '/cyvass.github.io/assets/js/dist/misc.min.js',
-        '/cyvass.github.io/assets/js/dist/page.min.js',
-        '/cyvass.github.io/assets/js/dist/post.min.js',
-        '/cyvass.github.io/assets/js/dist/pvreport.min.js'
+        '/assets/img/favicons/android-chrome-192x192.png',
+        '/assets/img/favicons/android-chrome-512x512.png',
+        '/assets/img/favicons/apple-touch-icon.png',
+        '/assets/img/favicons/favicon-16x16.png',
+        '/assets/img/favicons/favicon-32x32.png',
+        '/assets/img/favicons/favicon.ico',
+        '/assets/img/favicons/mstile-150x150.png',
+        '/assets/img/favicons/safari-pinned-tab.svg',
+        '/assets/js/dist/categories.min.js',
+        '/assets/js/dist/commons.min.js',
+        '/assets/js/dist/home.min.js',
+        '/assets/js/dist/misc.min.js',
+        '/assets/js/dist/page.min.js',
+        '/assets/js/dist/post.min.js',
+        '/assets/js/dist/pvreport.min.js'
 ];
 
 /* The request url with below domain will be cached */
