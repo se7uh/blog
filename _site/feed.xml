@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>./Cyvas Blog</title>
   <subtitle>Minimal dan Responsif blog milik cyvas.</subtitle>
-  <updated>2022-11-01T06:06:11+07:00</updated>
+  <updated>2022-11-08T04:51:57+07:00</updated>
   <author>
     <name>Nasrul Aziz</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Akses port Linux di Android</title>
+    <link href="http://localhost:4000/posts/akses-port-linux-di-android/" rel="alternate" type="text/html" title="Akses port Linux di Android" />
+    <published>2022-11-07T04:36:25+07:00</published>
+  
+    <updated>2022-11-07T04:36:25+07:00</updated>
+  
+    <id>http://localhost:4000/posts/akses-port-linux-di-android/</id>
+    <content src="http://localhost:4000/posts/akses-port-linux-di-android/" />
+    <author>
+      <name>Nasrul Aziz</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.
+
+PENTING : KALIAN HARUS MENGGUNAKAN 1 WIFI YANG SAMA
+
+cara pertama yaitu kalian hentikan proses service firewall kalian. di kasus saya karena saya pakai 
+arch linux, bawaan firewall nya pakai iptables, kalau mau menghentikannya ketik
+sudo systemctl stop iptables
+
+setelah sudah kalian cari ip address ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -46,7 +90,7 @@
 
       Assalamualaikum Kawan, saya butuh bantuan kalian.
 kalau kalian nganggur dan punya ide untuk nulis blog,
-bisa kirim ke email saya aziznasrul85@gmail.com
+bisa kirim ke email saya aziznasrul85@gmail.com utamakan bahas tentang teknologi :]
 suwun :p
 
     </summary>
@@ -175,56 +219,6 @@ error: jansson: signature from "Eli Schwartz &amp;lt;eschwartz@archlinux.org&amp
 
 Tenang saja karena saya akan membagikan cara mengatasi hal tersebut ;)
 oke, pertama perlu k...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Cara Menambah PATH di Linux</title>
-    <link href="http://localhost:4000/posts/cara-menambah-PATH-di-linux/" rel="alternate" type="text/html" title="Cara Menambah PATH di Linux" />
-    <published>2022-08-11T06:32:00+07:00</published>
-  
-    <updated>2022-10-29T23:34:10+07:00</updated>
-  
-    <id>http://localhost:4000/posts/cara-menambah-PATH-di-linux/</id>
-    <content src="http://localhost:4000/posts/cara-menambah-PATH-di-linux/" />
-    <author>
-      <name>Nasrul Aziz</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Assalamualaikum.
-halo, ini cara Cara Menambah PATH di linux.
-oke caranya tambah ini di shell source yg kita gunakan:
-export PATH="$HOME/.local/bin:$PATH"
-
-setelah itu kita perlu restart shell source yang kita gunakan:
-bash
-source ~/.bashrc
-
-zsh
-source ~/.zshrc
-
-
-oke itu ajah, konten ini buat yang paham2 ajah kalo gk paham ngapain disini :u
-
     </summary>
   
 

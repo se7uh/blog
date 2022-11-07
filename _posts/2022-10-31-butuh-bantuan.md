@@ -8,5 +8,5 @@ tags: []
 ---
 Assalamualaikum Kawan, saya butuh bantuan kalian.<br>
 kalau kalian nganggur dan punya ide untuk nulis blog,
-bisa kirim ke email saya `aziznasrul85@gmail.com`<br>
+bisa kirim ke email saya `aziznasrul85@gmail.com` utamakan bahas tentang teknologi :]<br>
 suwun :p
