@@ -395,6 +395,54 @@
       
 
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
 
     
 
@@ -407,6 +455,29 @@
 
   
   
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
 
   
 
@@ -495,8 +566,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="252 kata">
-  <em>1 menit</em> baca</span>
+  title="425 kata">
+  <em>2 menit</em> baca</span>
 
     </div>
 
@@ -509,13 +580,21 @@
 
 <p><strong>PENTING : KALIAN HARUS MENGGUNAKAN 1 WIFI YANG SAMA</strong></p>
 
-<p>cara pertama yaitu kalian hentikan proses service firewall kalian. di kasus saya karena saya pakai 
-arch linux, bawaan firewall nya pakai iptables, kalau mau menghentikannya ketik</p>
+<h2 id="cara-pertama"><span class="mr-2">Cara Pertama</span><a href="#cara-pertama" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>yaitu kalian buka port di linux. di kasus saya karena saya pakai 
+arch linux, bawaan nya pakai iptables, tinggal ketik</p>
 <div class="language-terminal highlighter-rouge"><div class="code-header">
         <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="go">sudo systemctl stop iptables
+</pre></td><td class="rouge-code"><pre><span class="go">sudo iptables -A INPUT -p tcp --dport 8000 -j ACCEPT
 </span></pre></td></tr></tbody></table></code></div></div>
+<p>kemmudian restart service iptables</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">sudo systemctl restart iptables
+</span></pre></td></tr></tbody></table></code></div></div>
+<h2 id="cara-kedua"><span class="mr-2">Cara Kedua</span><a href="#cara-kedua" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>setelah sudah kalian cari ip address local anda dengan cara</p>
 <div class="language-terminal highlighter-rouge"><div class="code-header">
         <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
@@ -524,12 +603,14 @@ arch linux, bawaan firewall nya pakai iptables, kalau mau menghentikannya ketik<
 </span></pre></td></tr></tbody></table></code></div></div>
 <p>disana kalian akan melihat ip address kalian yang ada di sebelah tulisan <strong>inet</strong></p>
 
+<h2 id="cara-ketiga"><span class="mr-2">Cara Ketiga</span><a href="#cara-ketiga" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>jika sudah, kalian aktifkan/buka servernya dengan pyserver di folder yang kalian inginkan</p>
 <div class="language-terminal highlighter-rouge"><div class="code-header">
         <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="go">python3 -m http.server
 </span></pre></td></tr></tbody></table></code></div></div>
+<h2 id="cara-keempat"><span class="mr-2">Cara Keempat</span><a href="#cara-keempat" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>dan setelah itu kalian bisa akses nya di android kalian dengan cara kalian masukkan ip address
 yang dan tambah nomer port nya tadi, ketik di browser hp anda, contoh:</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
@@ -542,6 +623,63 @@ yang dan tambah nomer port nya tadi, ketik di browser hp anda, contoh:</p>
 <p>dan selesai, itu aja sih semoga bermanfaat dan buat pengingat gweh juga ini kalo lupa, hehe :3</p>
 <hr />
 
+<p>Disini Saya membuat script untuk kalian jika ingin langsung tanpa perlu ngetik banyak hehe:3</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+</pre></td><td class="rouge-code"><pre><span class="c"># Mendeklarasikan IP sebagai perintah/command</span>
+<span class="nv">IP</span><span class="o">=</span><span class="si">$(</span>ifconfig | <span class="nb">grep</span> <span class="s2">"inet "</span> | <span class="nb">grep</span> <span class="nt">-v</span> 127.0.0.1<span class="si">)</span>
+
+<span class="c"># Membuka port dengan port 8000</span>
+<span class="c"># disini kalian bisa ganti port terserah kalian</span>
+<span class="nb">sudo </span>iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--dport</span> 8000 <span class="nt">-j</span> ACCEPT
+<span class="nb">sudo </span>systemctl restart iptables
+
+<span class="c"># Menuggu Merestart iptables</span>
+<span class="nb">echo</span> <span class="s2">""</span>
+<span class="nb">echo</span> <span class="s2">"Menuggu iptables terestart"</span>
+<span class="nb">sleep </span>3s
+
+<span class="c"># Menampilkan IP</span>
+<span class="nb">echo</span> <span class="s2">""</span>
+<span class="nb">echo</span> <span class="s2">"Lihat ip anda dibawah disebelah 'inet' : "</span>
+<span class="nb">echo</span> <span class="nv">$IP</span>
+
+<span class="c"># membuka terminal baru dan membuka port dengan pyserver</span>
+<span class="c"># disini kalian bisa ganti terminal kesukaan kalian</span>
+<span class="c"># karena saya pakai xfce jadi pakai xfce4-terminal</span>
+xfce4-terminal <span class="nt">-e</span> <span class="s1">'python3 -m http.server'</span>
+
+<span class="c"># Selesai</span>
+<span class="nb">echo</span> <span class="s2">""</span>
+<span class="nb">echo</span> <span class="s2">"pyserver berjalan di terminal yg baru terbuka"</span>
+</pre></td></tr></tbody></table></code></div></div>
+
 <p>btw disini ada alternatif lain untuk pyserver, namanya <a href="https://github.com/tapio/live-server">live server</a> kelebihannya adalah <strong>FITUR LIVE RELOAD</strong></p>
 
 <p>jadi jika ada perubahan di file nya kita tidak
@@ -550,12 +688,14 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
 
 <h2 id="rangkuman-cepat"><span class="mr-2">RANGKUMAN CEPAT</span><a href="#rangkuman-cepat" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <ol>
-  <li>Hentikan Service firewall</li>
-  <li>cari ip address local anda</li>
-  <li>buka server dengan pyserver atau live server</li>
-  <li>Anda tinggal masukkan ip anda dan port nya</li>
+  <li><a href="#cara-pertama">buka port di linux</a></li>
+  <li><a href="#cara-kedua">cari ip address local anda</a></li>
+  <li><a href="#cara-ketiga">buka server dengan pyserver atau live server</a></li>
+  <li><a href="#cara-keempat">Anda tinggal masukkan ip anda dan port nya</a></li>
   <li>Selesai :)</li>
 </ol>
+
+<h4 id="credit--groovypost"><span class="mr-2">credit : <a href="https://www.groovypost.com/howto/open-ports-in-linux/">groovypost</a></span><a href="#credit--groovypost" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
 </div>
 
@@ -682,6 +822,11 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
         
         
         
+      <li><a href="/posts/fix-opensearch/">Mengatasi Opensearch tidak berfungsi di chrome</a></li>
+      
+        
+        
+        
       <li><a href="/posts/cara-automount-ntfs-linux/">Cara Auto Mount NTFS di linux</a></li>
       
         
@@ -698,11 +843,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
         
         
       <li><a href="/posts/install-tkinter-arch-linux/">Cara install tkinter di Arch linux</a></li>
-      
-        
-        
-        
-      <li><a href="/posts/cara-menambah-PATH-di-linux/">Cara Menambah PATH di Linux</a></li>
       
     </ul>
   </div> <!-- #access-lastmod -->
@@ -1414,19 +1554,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
   
 
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
 
 
 
@@ -1570,9 +1697,9 @@ Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling du
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/butuh-bantuan/" class="btn btn-outline-primary"
+  <a href="/posts/wine-gak-ada-suara/" class="btn btn-outline-primary"
     prompt="Terlama">
-    <p>p inpo</p>
+    <p>Wine Tidak ada Suara</p>
   </a>
   
 
