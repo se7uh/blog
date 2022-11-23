@@ -15,6 +15,6 @@ dan tambah kan teks ini :
 ```
 [Seat:*]
 autologin-session=
-autologin-user=(Nama username mu) <-- hapus tanda kurung ea
+autologin-user=(Nama username mu) <-- hapus tanda kurung nya
 autologin-user-timeout=0
 ```

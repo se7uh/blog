@@ -23,3 +23,5 @@ git pull
 ```
 
 dan selesai, git local anda sekarang udh sinkron dengan yg ada di github :)
+
+@credit : Artur Barseghyan
