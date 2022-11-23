@@ -38,25 +38,25 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.1" />
-<meta property="og:title" content="Mengatasi Mouse Kehilangan fokus di wine" />
+<meta property="og:title" content="Cara Install Arch Linux (cepet what whet)" />
 <meta property="og:locale" content="id_ID" />
-<meta name="description" content="Mengatasi Mouse Di Wine Kehilangan Fokus Saya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permainan tidak mendapatkan input mouse dan keyboard saya. Saya mencoba dengan solusi yang saya temukan di beberapa halaman yang mengatakan bahwa di Regedit, saya harus membuat entri baru bernama “UseTakeFocus” dengan nilai “N” di HKEY_CURRENT_USER\Software\Wine\X11 Driver" />
-<meta property="og:description" content="Mengatasi Mouse Di Wine Kehilangan Fokus Saya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permainan tidak mendapatkan input mouse dan keyboard saya. Saya mencoba dengan solusi yang saya temukan di beberapa halaman yang mengatakan bahwa di Regedit, saya harus membuat entri baru bernama “UseTakeFocus” dengan nilai “N” di HKEY_CURRENT_USER\Software\Wine\X11 Driver" />
-<link rel="canonical" href="http://localhost:4000/blog/posts/Fix-wine-kehilangan-kontrol/" />
-<meta property="og:url" content="http://localhost:4000/blog/posts/Fix-wine-kehilangan-kontrol/" />
+<meta name="description" content="pertama siapkan partisi yg kosong dan format jadi ext4 1 mkfs.ext4 /dev/sda4 Disini contoh nomer partisi yg saya gunakan adalah sda4 setelah itu kalian mount ke /mnt 1 mount /dev/sda4 /mnt setelah masuk sambungkan ke ethernet atau bisa tethering usb dan kalian install menggunakan pacstrap : 1 pacstrap /mnt base base-devel linux linux-firmware vim lanjut kalian gunakan perintah genfstab untuk gen(erator)fstab untuk kalian 1 genfstab -U /mnt &gt;&gt; /mnt/etc/fstab selanjutnya kalian gunakan arch-chroot untuk masuk ke arch linux nya 1 arch-chroot /mnt /bin/bash lanjut kita install paket yg dibutuhkan nanti 1 pacman -S networkmanager grub dan kita enable networkmanager nya agar setiap masuk linux langsung jalan 1 systemctl enable NetworkManager Perhatikan besar-kecilnya penulisan huruf setelah itu kita install grub untuk setiap komputer dihidupkan masuk ke linux boot manager 1 grub-install /dev/sda Disini kita installnya di hardisknya, bukan cuma di partisinya aja, jadi gk ush nomer lanjut kita buat folder untuk penempatan grub confignya 1 mkdir -p /boot/grub dan kita jalankan perintah dibawah untuk dapat grub confignya 1 grub-mkconfig -o /boot/grub/grub.cfg lanjut kita gunakan perintah passwd untuk password root nya 1 passwd dan sekarang kita gen(erator) locale (bahasa) 1 vim /etc/locale.gen dan karena saya menggunakan bahasa inggris saya uncomment (Menghilangkan tanda pagar/#) di bagian en_US.UTF-8." />
+<meta property="og:description" content="pertama siapkan partisi yg kosong dan format jadi ext4 1 mkfs.ext4 /dev/sda4 Disini contoh nomer partisi yg saya gunakan adalah sda4 setelah itu kalian mount ke /mnt 1 mount /dev/sda4 /mnt setelah masuk sambungkan ke ethernet atau bisa tethering usb dan kalian install menggunakan pacstrap : 1 pacstrap /mnt base base-devel linux linux-firmware vim lanjut kalian gunakan perintah genfstab untuk gen(erator)fstab untuk kalian 1 genfstab -U /mnt &gt;&gt; /mnt/etc/fstab selanjutnya kalian gunakan arch-chroot untuk masuk ke arch linux nya 1 arch-chroot /mnt /bin/bash lanjut kita install paket yg dibutuhkan nanti 1 pacman -S networkmanager grub dan kita enable networkmanager nya agar setiap masuk linux langsung jalan 1 systemctl enable NetworkManager Perhatikan besar-kecilnya penulisan huruf setelah itu kita install grub untuk setiap komputer dihidupkan masuk ke linux boot manager 1 grub-install /dev/sda Disini kita installnya di hardisknya, bukan cuma di partisinya aja, jadi gk ush nomer lanjut kita buat folder untuk penempatan grub confignya 1 mkdir -p /boot/grub dan kita jalankan perintah dibawah untuk dapat grub confignya 1 grub-mkconfig -o /boot/grub/grub.cfg lanjut kita gunakan perintah passwd untuk password root nya 1 passwd dan sekarang kita gen(erator) locale (bahasa) 1 vim /etc/locale.gen dan karena saya menggunakan bahasa inggris saya uncomment (Menghilangkan tanda pagar/#) di bagian en_US.UTF-8." />
+<link rel="canonical" href="http://localhost:4000/blog/posts/cara-install-arch-linux/" />
+<meta property="og:url" content="http://localhost:4000/blog/posts/cara-install-arch-linux/" />
 <meta property="og:site_name" content="./Cyvas Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-06-01T06:32:00+07:00" />
+<meta property="article:published_time" content="2022-11-23T04:36:25+07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Mengatasi Mouse Kehilangan fokus di wine" />
+<meta property="twitter:title" content="Cara Install Arch Linux (cepet what whet)" />
 <meta name="twitter:site" content="@Kyvass" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-06-01T06:32:00+07:00","datePublished":"2022-06-01T06:32:00+07:00","description":"Mengatasi Mouse Di Wine Kehilangan Fokus Saya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permainan tidak mendapatkan input mouse dan keyboard saya. Saya mencoba dengan solusi yang saya temukan di beberapa halaman yang mengatakan bahwa di Regedit, saya harus membuat entri baru bernama “UseTakeFocus” dengan nilai “N” di HKEY_CURRENT_USER\\Software\\Wine\\X11 Driver","headline":"Mengatasi Mouse Kehilangan fokus di wine","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/Fix-wine-kehilangan-kontrol/"},"url":"http://localhost:4000/blog/posts/Fix-wine-kehilangan-kontrol/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-23T04:36:25+07:00","datePublished":"2022-11-23T04:36:25+07:00","description":"pertama siapkan partisi yg kosong dan format jadi ext4 1 mkfs.ext4 /dev/sda4 Disini contoh nomer partisi yg saya gunakan adalah sda4 setelah itu kalian mount ke /mnt 1 mount /dev/sda4 /mnt setelah masuk sambungkan ke ethernet atau bisa tethering usb dan kalian install menggunakan pacstrap : 1 pacstrap /mnt base base-devel linux linux-firmware vim lanjut kalian gunakan perintah genfstab untuk gen(erator)fstab untuk kalian 1 genfstab -U /mnt &gt;&gt; /mnt/etc/fstab selanjutnya kalian gunakan arch-chroot untuk masuk ke arch linux nya 1 arch-chroot /mnt /bin/bash lanjut kita install paket yg dibutuhkan nanti 1 pacman -S networkmanager grub dan kita enable networkmanager nya agar setiap masuk linux langsung jalan 1 systemctl enable NetworkManager Perhatikan besar-kecilnya penulisan huruf setelah itu kita install grub untuk setiap komputer dihidupkan masuk ke linux boot manager 1 grub-install /dev/sda Disini kita installnya di hardisknya, bukan cuma di partisinya aja, jadi gk ush nomer lanjut kita buat folder untuk penempatan grub confignya 1 mkdir -p /boot/grub dan kita jalankan perintah dibawah untuk dapat grub confignya 1 grub-mkconfig -o /boot/grub/grub.cfg lanjut kita gunakan perintah passwd untuk password root nya 1 passwd dan sekarang kita gen(erator) locale (bahasa) 1 vim /etc/locale.gen dan karena saya menggunakan bahasa inggris saya uncomment (Menghilangkan tanda pagar/#) di bagian en_US.UTF-8.","headline":"Cara Install Arch Linux (cepet what whet)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/cara-install-arch-linux/"},"url":"http://localhost:4000/blog/posts/cara-install-arch-linux/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Mengatasi Mouse Kehilangan fokus di wine | ./Cyvas Blog
+  <title>Cara Install Arch Linux (cepet what whet) | ./Cyvas Blog
   </title>
 
   <!--
@@ -284,7 +284,7 @@
         
 
           
-            <span>Mengatasi Mouse Kehilangan fokus di wine</span>
+            <span>Cara Install Arch Linux (cepet what whet)</span>
           
 
         
@@ -381,29 +381,6 @@
   
 
   
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-
-    
-
-    
-
-  
 
   
   
@@ -458,13 +435,82 @@
 
   
 
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+
+    
+
+    
+    
+
+    
+
+  
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+
+    
+
+    
+    
+
+    
+
+  
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+
+    
+
+    
+    
+
+    
+
+  
+
   
 
 
 
 <!-- return -->
 
-<h1 data-toc-skip>Mengatasi Mouse Kehilangan fokus di wine</h1>
+<h1 data-toc-skip>Cara Install Arch Linux (cepet what whet)</h1>
 
 <div class="post-meta text-muted">
     <!-- published date -->
@@ -480,10 +526,10 @@
 
 
 <em class=""
-    data-ts="1654039920"
+    data-ts="1669152985"
     data-df="DD/MM/YYYY"
     data-toggle="tooltip" data-placement="bottom">
-  01/06/2022
+  23/11/2022
 </em>
 
     </span>
@@ -531,8 +577,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="86 kata">
-  <em>1 menit</em> baca</span>
+  title="384 kata">
+  <em>2 menit</em> baca</span>
 
     </div>
 
@@ -541,16 +587,155 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <h3 id="mengatasi-mouse-di-wine-kehilangan-fokus"><span class="mr-2">Mengatasi Mouse Di Wine Kehilangan Fokus</span><a href="#mengatasi-mouse-di-wine-kehilangan-fokus" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Saya pernah punya masalah yang lalu, ketika melakukan alt+tab di beberapa game di wine. Setiap kali saya melakukan alt+tab saya kehilangan fokus dan permainan tidak mendapatkan input mouse dan keyboard saya. Saya mencoba dengan solusi yang saya temukan di beberapa halaman yang mengatakan bahwa di Regedit, saya harus membuat entri baru bernama “UseTakeFocus” dengan nilai “N” di <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\Software\Wine\X11 Driver</code></p>
-
+  <p>pertama siapkan partisi yg kosong dan format jadi ext4</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">mkfs.ext4 /dev/sda4
+</span></pre></td></tr></tbody></table></code></div></div>
 <blockquote class="prompt-info"><div>
-  <p>Buat folder baru jika tidak lihat folder ‘X11 Driver’.</p>
+  <p>Disini contoh nomer partisi yg saya gunakan adalah <strong>sda4</strong></p>
+</div></blockquote>
+<p>setelah itu kalian mount ke /mnt</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">mount /dev/sda4 /mnt
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>setelah masuk <strong>sambungkan ke ethernet atau bisa tethering usb</strong>
+dan kalian install menggunakan pacstrap :</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">pacstrap /mnt base base-devel linux linux-firmware vim
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>lanjut kalian gunakan perintah genfstab untuk gen(erator)fstab untuk kalian</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">genfstab -U /mnt &gt;</span><span class="o">&gt;</span> /mnt/etc/fstab
+</pre></td></tr></tbody></table></code></div></div>
+<p>selanjutnya kalian gunakan arch-chroot untuk masuk ke arch linux nya</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">arch-chroot /mnt /bin/bash
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>lanjut kita install paket yg dibutuhkan nanti</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">pacman -S networkmanager grub
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan kita enable networkmanager nya agar setiap masuk linux langsung jalan</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">systemctl enable NetworkManager
+</span></pre></td></tr></tbody></table></code></div></div>
+<blockquote class="prompt-danger"><div>
+  <p><strong>Perhatikan besar-kecilnya penulisan huruf</strong></p>
+</div></blockquote>
+<p>setelah itu kita install grub untuk setiap komputer dihidupkan masuk ke linux boot manager</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">grub-install /dev/sda
+</span></pre></td></tr></tbody></table></code></div></div>
+<blockquote class="prompt-warning"><div>
+  <p><strong>Disini kita installnya di hardisknya, bukan cuma di partisinya aja, jadi gk ush nomer</strong></p>
+</div></blockquote>
+<p>lanjut kita buat folder untuk penempatan grub confignya</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">mkdir -p /boot/grub
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan kita jalankan perintah dibawah untuk dapat grub confignya</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">grub-mkconfig -o /boot/grub/grub.cfg
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>lanjut kita gunakan perintah passwd untuk password root nya</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">passwd
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan sekarang kita gen(erator) locale (bahasa)</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">vim /etc/locale.gen
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan karena saya menggunakan bahasa inggris saya uncomment (Menghilangkan tanda pagar/#)
+di bagian <code class="language-plaintext highlighter-rouge">en_US.UTF-8</code>.</p>
+
+<p>setelah itu kalian ketik perintah locale-gen untuk merefresh settingan locale (bahasa) nya</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">locale-gen
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>lanjut kita ketik</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">vim /etc/locale.conf
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>disana kita ketik locale yang kita uncomment sebelumnya, karena saya uncomment <code class="language-plaintext highlighter-rouge">en_US.UTF-8</code> jadi
+saya ketik gini</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>LANG=en_US.UTF-8
+</pre></td></tr></tbody></table></code></div></div>
+<p>setelah itu kita akan setting hostname kita.<br /> kalian tidak tahu hostname?? hostname itu yg saya
+garis bawahi ini lho =&gt; username@<b><u>hostname</u></b><br />
+oke, kembali ke cara settingnya. kita ketik:</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">vim /etc/hostname
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan disana kalian masukkan hostname sesuka kalian.<br /></p>
+
+<p>lanjut kita set timezone kita, ketik:</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+</span></pre></td></tr></tbody></table></code></div></div>
+<blockquote class="prompt-info"><div>
+  <p>fungsi ln disini adalah untuk melink kan jakarta tsb ke /etc/localtime.</p>
 </div></blockquote>
 
-<p>Ini berhasil, dan saya bisa alt+tab tanpa masalah.</p>
+<p>setelah itu kalian <strong>exit (CTRL + D)</strong></p>
 
-<p>Refrensi : <a href="https://archived.forum.manjaro.org/t/lose-focus-of-window-in-wine/127097">Forum Manjaro</a></p>
+<p>dan kalian umount partisi tsb</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">umount -R /mnt
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>dan restart/reboot</p>
+<div class="language-terminal highlighter-rouge"><div class="code-header">
+        <span data-label-text="Terminal"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Disalin!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="go">reboot
+</span></pre></td></tr></tbody></table></code></div></div>
+<p>sekarang kalian tinggal copot USB kalian, sekarang kalian bisa masuk arch linux
+karena kalian belum set username kalian hanya bisa login menggunakan root.
+jika kalian dusuruh masukkan username masukkan root, contoh:</p>
+
+<p><strong>username: root</strong><br />
+<strong>password: {password yg kalian masukkan tadi}</strong></p>
+
+<p>dan selamat, tapi kalian tinggal install Desktop Enviroment aja, tapi lanjut di next
+tutor ya kawan, pegel nulis aq..</p>
+
+<p>credit : @Mental outlaw</p>
 
 </div>
 
@@ -571,11 +756,11 @@
   <div class="post-tags">
     <i class="fa fa-tags fa-fw mr-1"></i>
       
-      <a href="/blog/tags/wine/"
-          class="post-tag no-text-decoration" >wine</a>
+      <a href="/blog/tags/linux/"
+          class="post-tag no-text-decoration" >Linux</a>
       
-      <a href="/blog/tags/emulator/"
-          class="post-tag no-text-decoration" >emulator</a>
+      <a href="/blog/tags/arch-linux/"
+          class="post-tag no-text-decoration" >Arch Linux</a>
       
   </div>
   
@@ -610,19 +795,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Mengatasi+Mouse+Kehilangan+fokus+di+wine+-+.%2FCyvas+Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2FFix-wine-kehilangan-kontrol%2F" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Cara+Install+Arch+Linux+%28cepet+what+whet%29+-+.%2FCyvas+Blog&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fcara-install-arch-linux%2F" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Mengatasi+Mouse+Kehilangan+fokus+di+wine+-+.%2FCyvas+Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2FFix-wine-kehilangan-kontrol%2F" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Cara+Install+Arch+Linux+%28cepet+what+whet%29+-+.%2FCyvas+Blog&u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fcara-install-arch-linux%2F" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2FFix-wine-kehilangan-kontrol%2F&text=Mengatasi+Mouse+Kehilangan+fokus+di+wine+-+.%2FCyvas+Blog" data-toggle="tooltip" data-placement="top"
+        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fcara-install-arch-linux%2F&text=Cara+Install+Arch+Linux+%28cepet+what+whet%29+-+.%2FCyvas+Blog" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -1192,14 +1377,6 @@
 
 
 
-<!-- BS-toc.js will be loaded at medium priority -->
-<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
-
-<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
-  <div class="panel-heading pl-3 pt-2 mb-2">Konten</div>
-  <nav id="toc" data-toggle="toc"></nav>
-</div>
-
 
     
   </div>
@@ -1235,189 +1412,189 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -1503,7 +1680,7 @@
       
       
       <div class="card">
-        <a href="/blog/posts/wine-gak-ada-suara/">
+        <a href="/blog/posts/akses-port-linux-di-android/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1515,13 +1692,13 @@
 
 
 <em class="small"
-    data-ts="1666135920"
+    data-ts="1667770585"
     data-df="DD/MM/YYYY"
     >
-  19/10/2022
+  07/11/2022
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Wine Tidak ada Suara</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Akses port Linux di Android</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1530,7 +1707,12 @@
 
 
 
-                Assalamualaikum brother, jadi hari ini saya ada masalah saat mau main game di linux pake wine (pakai apa lagi kalau gk pake ini wkwk). Jadi saat game nya dimulai kok gk ada suara?? saya pun cari ca...
+                Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.
+
+PENTING : KALIAN HARUS MENGGUNAKAN 1 WIFI YANG SAMA
+
+Cara Pertama
+yaitu kalian buka port di linux. d...
               </p>
             </div>
           </div>
@@ -1540,7 +1722,7 @@
       
       
       <div class="card">
-        <a href="/blog/posts/cara-mengganti-mac-di-linux/">
+        <a href="/blog/posts/PulseAudio-suara-mentok/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1552,13 +1734,13 @@
 
 
 <em class="small"
-    data-ts="1658187120"
+    data-ts="1669152985"
     data-df="DD/MM/YYYY"
     >
-  19/07/2022
+  23/11/2022
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Cara mengganti MAC ADDRESS di linux</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>PulseAudio, menuju tak terbatas dan melampauinya</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1567,8 +1749,9 @@
 
 
 
-                Assalamualaikum semua, jadi kali ini saya mau share cara mengganti Mac Address Di Linux kalian ;)
-Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling dulu dan kenapa saya ...
+                assalamualaikum kawan, jadi saya habis install ulang arch linux dan saat dengar lagu suaranya kok kecil?
+jadi disini ada caranya mengatasi pulseaudio suaranya mentok di 100%.
+oke, pertama kalian in...
               </p>
             </div>
           </div>
@@ -1578,7 +1761,7 @@ Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling du
       
       
       <div class="card">
-        <a href="/blog/posts/install-tkinter-arch-linux/">
+        <a href="/blog/posts/cara-auto-login-di-XFCE/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1590,13 +1773,13 @@ Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling du
 
 
 <em class="small"
-    data-ts="1658187120"
+    data-ts="1669152985"
     data-df="DD/MM/YYYY"
     >
-  19/07/2022
+  23/11/2022
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Cara install tkinter di Arch linux</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Cara auto-login di XFCE</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1605,7 +1788,12 @@ Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling du
 
 
 
-                Arch Linux adalah distro yang berbeda dari distro kebanyakan, karena distro kebanyakan menggunakan Distro berbasis Debian/Ubuntu oleh karena itu saya sedikit kesusahan saat mau mencari nama paket T...
+                Assalamualaikum kawan.
+jadi saya mau sher cara auto login di XFCE, karena setiap laptop saya hidup harus masukkan password,
+jadinya saya males :|
+oke langsung ke tutor nya kawan :)
+Caranya
+kalian e...
               </p>
             </div>
           </div>
@@ -1624,17 +1812,17 @@ Buat Kalian yang tidak paham apa itu Mac Address Kalian mungkin bisa googling du
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/blog/posts/enable-google-pv/" class="btn btn-outline-primary"
+  <a href="/blog/posts/cara-auto-login-di-XFCE/" class="btn btn-outline-primary"
     prompt="Terlama">
-    <p>Enable Google Page Views</p>
+    <p>Cara auto-login di XFCE</p>
   </a>
   
 
   
-  <a href="/blog/posts/Install-32bit-package-di-arch/" class="btn btn-outline-primary"
+  <div class="btn btn-outline-primary disabled"
     prompt="Terbaru">
-    <p>cara Install paket 32bit di Linux</p>
-  </a>
+    <p>-</p>
+  </div>
   
 
 </div>
