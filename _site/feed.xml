@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title>./Cyvas Blog</title>
   <subtitle>Minimal dan Responsif blog milik cyvas.</subtitle>
-  <updated>2022-11-23T22:18:37+07:00</updated>
+  <updated>2022-11-24T00:26:50+07:00</updated>
   <author>
     <name>Nasrul Aziz</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -17,6 +17,61 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Cara update git local ke perubahan terbaru di github</title>
+    <link href="http://localhost:4000/blog/posts/git-pull-tanpa-commit/" rel="alternate" type="text/html" title="Cara update git local ke perubahan terbaru di github" />
+    <published>2022-11-24T00:06:25+07:00</published>
+  
+    <updated>2022-11-24T00:06:25+07:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/git-pull-tanpa-commit/</id>
+    <content src="http://localhost:4000/blog/posts/git-pull-tanpa-commit/" />
+    <author>
+      <name>Nasrul Aziz</name>
+    </author>
+
+  
+    
+    <category term="Git" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      assalamualaikum kawan.
+
+jadi saat saya mau push ke github, minta di pull --rebase dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)
+
+
+  pertama kita fetch(mengambil) semua terbaru perubahan di github
+    git fetch --all
+    
+  
+  kedua, kita reset
+    git reset --hard origin/main
+    
+  
+  terakhir kita pull/update
+    git pull
+    
+  
+
+
+dan selesai, git local anda sekarang udh sin...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -198,45 +253,6 @@ sudo iptables -A INPUT -p tcp --dport 8000 -j ACCEPT
 
 kemmudian restart service iptables
 sudo systemctl restart ipt...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Wine Tidak ada Suara</title>
-    <link href="http://localhost:4000/blog/posts/wine-gak-ada-suara/" rel="alternate" type="text/html" title="Wine Tidak ada Suara" />
-    <published>2022-10-19T06:32:00+07:00</published>
-  
-    <updated>2022-10-19T06:32:00+07:00</updated>
-  
-    <id>http://localhost:4000/blog/posts/wine-gak-ada-suara/</id>
-    <content src="http://localhost:4000/blog/posts/wine-gak-ada-suara/" />
-    <author>
-      <name>Nasrul Aziz</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Assalamualaikum brother, jadi hari ini saya ada masalah saat mau main game di linux pake wine (pakai apa lagi kalau gk pake ini wkwk). Jadi saat game nya dimulai kok gk ada suara?? saya pun cari cara ngatasinnya di google dan nemu kalau saya belum install paket nya. btw nama paketnya adalah lib32-libpulse, untuk install nya di arch linux cukup ketik :
-sudo pacman -S lib32-libpulse
-
-
     </summary>
   
 

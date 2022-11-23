@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Cara update git local ke perubahan terbaru di github",
+    "url": "/blog/posts/git-pull-tanpa-commit/",
+    "categories": "Git, Tutorial",
+    "tags": "Linux, Git",
+    "date": "2022-11-24 00:06:25 +0700",
+    
+
+
+
+
+
+    "snippet": "assalamualaikum kawan.jadi saat saya mau push ke github, minta di pull --rebase dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)  pertama kita fetch(mengambil) semua terbaru perubahan..."
+  },
+  
+  {
     "title": "Cara Install Arch Linux (cepet what whet)",
     "url": "/blog/posts/cara-install-arch-linux/",
     "categories": "Linux, Tutorial",

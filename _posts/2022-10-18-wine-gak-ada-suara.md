@@ -9,3 +9,10 @@ Assalamualaikum brother, jadi hari ini saya ada masalah saat mau main game di li
 ```terminal
 sudo pacman -S lib32-libpulse
 ```
+jika masih tidak berhasil, install paket yg ada di bawah ini juga :
+```
+lib32-alsa-lib: ALSA audio driver
+lib32-jack: JACK audio driver
+lib32-libpulse: PulseAudio audio driver
+lib32-pipewire: PipeWire audio driver
+```
