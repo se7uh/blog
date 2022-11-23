@@ -9,7 +9,7 @@ assalamualaikum kawan.
 
 jadi saat saya mau push ke github, minta di `pull --rebase` dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)
 
-- pertama kita fetch(mengambil) semua terbaru perubahan di github
+- pertama kita fetch(mengambil) semua perubahan terbaru di github
 ```terminal
 git fetch --all
 ```
@@ -24,4 +24,4 @@ git pull
 
 dan selesai, git local anda sekarang udh sinkron dengan yg ada di github :)
 
-@credit : Artur Barseghyan
+@credit : [Artur Barseghyan](https://stackoverflow.com/users/2318839/artur-barseghyan)

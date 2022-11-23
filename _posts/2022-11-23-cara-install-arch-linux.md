@@ -112,4 +112,4 @@ jika kalian dusuruh masukkan username masukkan root, contoh:
 dan selamat, tapi kalian tinggal install Desktop Enviroment aja, tapi lanjut di next
 tutor ya kawan, pegel nulis aq..
 
-credit : @Mental outlaw
+credit : [@Mental outlaw](https://www.youtube.com/c/mentaloutlaw)
