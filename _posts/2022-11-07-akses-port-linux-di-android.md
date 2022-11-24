@@ -45,7 +45,7 @@ dan selesai, itu aja sih semoga bermanfaat dan buat pengingat gweh juga ini kalo
 Disini Saya membuat script untuk kalian jika ingin langsung tanpa perlu ngetik banyak hehe:3
 ```bash
 # Mendeklarasikan IP sebagai perintah/command
-IP=$(ifconfig | grep "inet " | grep -v 127.0.0.1)
+IP=$(ifconfig | grep -v 127.0.0.1 | grep "inet ") 
 
 # Membuka port dengan port 8000
 # disini kalian bisa ganti port terserah kalian
@@ -55,7 +55,7 @@ sudo systemctl restart iptables
 # Menuggu Merestart iptables
 echo ""
 echo "Menuggu iptables terestart"
-sleep 3s
+sleep 1s
 
 # Menampilkan IP
 echo ""

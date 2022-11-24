@@ -19,5 +19,4 @@ source ~/.bashrc
 ```terminal
 source ~/.zshrc
 ```
-
-oke itu ajah, konten ini buat yang paham2 ajah kalo gk paham ngapain disini :u
+Oke itu aja.

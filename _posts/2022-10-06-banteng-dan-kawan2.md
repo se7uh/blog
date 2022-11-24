@@ -5,7 +5,7 @@ date: 2022-10-06 18:32:00 -0500
 categories: [Linux, Trik]
 tags: [trik, canda]
 ---
-Halo pengguna Linux.<br>
+Assalamualaikum kawan.<br>
 kalian mau tampilan neofetch kalian tampak seperti ini?
 
 ![image info](/gambar/banteng.webp)

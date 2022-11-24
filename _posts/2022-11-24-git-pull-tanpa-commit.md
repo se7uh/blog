@@ -24,4 +24,4 @@ git pull
 
 dan selesai, git local anda sekarang udh sinkron dengan yg ada di github :)
 
-@credit : [Artur Barseghyan](https://stackoverflow.com/users/2318839/artur-barseghyan)
+credit : [@Artur Barseghyan](https://stackoverflow.com/users/2318839/artur-barseghyan)

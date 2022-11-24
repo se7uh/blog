@@ -3,7 +3,7 @@ layout: post
 title: Mengatasi Arch linux pgp signature corrupted
 date: 2022-09-08 18:32:00 -0500
 categories: [Linux, Tutorial]
-tags: [arch linux]
+tags: [Arch Linux]
 ---
 #Haloo
 Jadi kamu mau upgrade paket di arch linux tapi malah dapat error kayak gini ?<br>
