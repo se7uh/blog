@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title>./Cyvas Blog</title>
   <subtitle>Minimal dan Responsif blog milik cyvas.</subtitle>
-  <updated>2022-11-24T00:26:50+07:00</updated>
+  <updated>2022-11-28T16:19:47+07:00</updated>
   <author>
     <name>Nasrul Aziz</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -20,11 +20,51 @@
 
   
   <entry>
+    <title>Cara hosting gambar di Dropbox</title>
+    <link href="http://localhost:4000/blog/posts/hosting-gambar-di-dropbox/" rel="alternate" type="text/html" title="Cara hosting gambar di Dropbox" />
+    <published>2022-11-28T00:06:25+07:00</published>
+  
+    <updated>2022-11-28T00:06:25+07:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/hosting-gambar-di-dropbox/</id>
+    <content src="http://localhost:4000/blog/posts/hosting-gambar-di-dropbox/" />
+    <author>
+      <name>Nasrul Aziz</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  pertama kalian upload gambar di dropbox
+  kedua kalian salin link tersebut
+
+  ketiga kalian ganti dl=0 -&amp;gt; raw=1
+
+  dan selesai :)
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Cara update git local ke perubahan terbaru di github</title>
     <link href="http://localhost:4000/blog/posts/git-pull-tanpa-commit/" rel="alternate" type="text/html" title="Cara update git local ke perubahan terbaru di github" />
     <published>2022-11-24T00:06:25+07:00</published>
   
-    <updated>2022-11-24T00:06:25+07:00</updated>
+    <updated>2022-11-24T19:41:04+07:00</updated>
   
     <id>http://localhost:4000/blog/posts/git-pull-tanpa-commit/</id>
     <content src="http://localhost:4000/blog/posts/git-pull-tanpa-commit/" />
@@ -53,7 +93,7 @@
 jadi saat saya mau push ke github, minta di pull --rebase dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)
 
 
-  pertama kita fetch(mengambil) semua terbaru perubahan di github
+  pertama kita fetch(mengambil) semua perubahan terbaru di github
     git fetch --all
     
   
@@ -79,7 +119,7 @@ dan selesai, git local anda sekarang udh sin...
     <link href="http://localhost:4000/blog/posts/cara-install-arch-linux/" rel="alternate" type="text/html" title="Cara Install Arch Linux (cepet what whet)" />
     <published>2022-11-23T04:36:25+07:00</published>
   
-    <updated>2022-11-23T04:36:25+07:00</updated>
+    <updated>2022-11-24T03:39:20+07:00</updated>
   
     <id>http://localhost:4000/blog/posts/cara-install-arch-linux/</id>
     <content src="http://localhost:4000/blog/posts/cara-install-arch-linux/" />
@@ -128,7 +168,7 @@ lanjut kalian gunakan perintah genfstab untuk g...
     <link href="http://localhost:4000/blog/posts/cara-auto-login-di-XFCE/" rel="alternate" type="text/html" title="Cara auto-login di XFCE" />
     <published>2022-11-23T04:36:25+07:00</published>
   
-    <updated>2022-11-23T04:36:25+07:00</updated>
+    <updated>2022-11-24T02:56:35+07:00</updated>
   
     <id>http://localhost:4000/blog/posts/cara-auto-login-di-XFCE/</id>
     <content src="http://localhost:4000/blog/posts/cara-auto-login-di-XFCE/" />
@@ -161,8 +201,8 @@ kalian edit file di /etc/lightdm/lightdm.conf dengan teks editor kesukaan kalian
 dan tambah kan teks ini :
 [Seat:*]
 autologin-session=
-autologin-user=(Nama username mu) &amp;lt;-- hapus tanda kurung ea
-autologin-...
+autologin-user=(Nama username mu) &amp;lt;-- hapus tanda kurung nya
+autologin...
     </summary>
   
 
@@ -207,52 +247,6 @@ pacman  (arch based)
 sudo pacman -S pulseaudio pulseaudiocontrol pulseaudio-equalizer
 
 apt-get  (debian based)...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Akses port Linux di Android</title>
-    <link href="http://localhost:4000/blog/posts/akses-port-linux-di-android/" rel="alternate" type="text/html" title="Akses port Linux di Android" />
-    <published>2022-11-07T04:36:25+07:00</published>
-  
-    <updated>2022-11-10T05:44:47+07:00</updated>
-  
-    <id>http://localhost:4000/blog/posts/akses-port-linux-di-android/</id>
-    <content src="http://localhost:4000/blog/posts/akses-port-linux-di-android/" />
-    <author>
-      <name>Nasrul Aziz</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.
-
-PENTING : KALIAN HARUS MENGGUNAKAN 1 WIFI YANG SAMA
-
-Cara Pertama
-yaitu kalian buka port di linux. di kasus saya karena saya pakai 
-arch linux, bawaan nya pakai iptables, tinggal ketik
-sudo iptables -A INPUT -p tcp --dport 8000 -j ACCEPT
-
-kemmudian restart service iptables
-sudo systemctl restart ipt...
     </summary>
   
 

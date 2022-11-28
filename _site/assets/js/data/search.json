@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Cara hosting gambar di Dropbox",
+    "url": "/blog/posts/hosting-gambar-di-dropbox/",
+    "categories": "",
+    "tags": "Gambar, Hosting",
+    "date": "2022-11-28 00:06:25 +0700",
+    
+
+
+
+
+
+    "snippet": "  pertama kalian upload gambar di dropbox  kedua kalian salin link tersebut  ketiga kalian ganti dl=0 -&gt; raw=1  dan selesai :)"
+  },
+  
+  {
     "title": "Cara update git local ke perubahan terbaru di github",
     "url": "/blog/posts/git-pull-tanpa-commit/",
     "categories": "Git, Tutorial",
@@ -12,7 +27,7 @@
 
 
 
-    "snippet": "assalamualaikum kawan.jadi saat saya mau push ke github, minta di pull --rebase dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)  pertama kita fetch(mengambil) semua terbaru perubahan..."
+    "snippet": "assalamualaikum kawan.jadi saat saya mau push ke github, minta di pull --rebase dulu, saya males kyak gitu. Karena itu saya bikin tutor ini :)  pertama kita fetch(mengambil) semua perubahan terbaru..."
   },
   
   {
@@ -79,7 +94,7 @@
     "title": "Wine Tidak ada Suara",
     "url": "/blog/posts/wine-gak-ada-suara/",
     "categories": "Linux, Tutorial",
-    "tags": "wine, emulator",
+    "tags": "wine, emulator, audio",
     "date": "2022-10-19 06:32:00 +0700",
     
 
@@ -102,14 +117,14 @@
 
 
 
-    "snippet": "Halo pengguna Linux.kalian mau tampilan neofetch kalian tampak seperti ini?kalau begitu mari simak tutor berikut ini !!caranya gampang, kalian download dulu file nya disini atau disini https://bit...."
+    "snippet": "Assalamualaikum kawan.kalian mau tampilan neofetch kalian tampak seperti ini?kalau begitu mari simak tutor berikut ini !!caranya gampang, kalian download dulu file nya disini atau disini https://bi..."
   },
   
   {
     "title": "Mengatasi Arch linux pgp signature corrupted",
     "url": "/blog/posts/Fix-ArchLinux-Keyring/",
     "categories": "Linux, Tutorial",
-    "tags": "arch linux",
+    "tags": "Arch Linux",
     "date": "2022-09-09 06:32:00 +0700",
     
 
@@ -222,7 +237,7 @@
 
 
 
-    "snippet": "Install 32bit Package Di LinuxArch LinuxUntuk Arch Linux Pertama2 Kalian Harus Mengaktifkan Multilib dahulu di /etc/pacman.conf.untuk penginstalan packagenya, caranya:sudo pacman lib32-*Ubuntu / De..."
+    "snippet": "Arch LinuxUntuk Arch Linux Pertama2 Kalian Harus Mengaktifkan Multilib dahulu di /etc/pacman.conf.untuk penginstalan paketnya, caranya:sudo pacman lib32-*Ubuntu / Debian Basedsudo apt-get install *..."
   },
   
   {

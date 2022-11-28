@@ -51,7 +51,7 @@
 <meta property="twitter:title" content="Akses port Linux di Android" />
 <meta name="twitter:site" content="@Kyvass" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-10T05:44:47+07:00","datePublished":"2022-11-07T04:36:25+07:00","description":"Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.","headline":"Akses port Linux di Android","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/akses-port-linux-di-android/"},"url":"http://localhost:4000/blog/posts/akses-port-linux-di-android/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-24T19:41:04+07:00","datePublished":"2022-11-07T04:36:25+07:00","description":"Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.","headline":"Akses port Linux di Android","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/akses-port-linux-di-android/"},"url":"http://localhost:4000/blog/posts/akses-port-linux-di-android/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -537,10 +537,10 @@
 
 
 <em class=""
-    data-ts="1668033887"
+    data-ts="1669293664"
     data-df="DD/MM/YYYY"
     data-toggle="tooltip" data-placement="bottom">
-  10/11/2022
+  24/11/2022
 </em>
 
     </span>
@@ -673,7 +673,7 @@ yang dan tambah nomer port nya tadi, ketik di browser hp anda, contoh:</p>
 25
 26
 </pre></td><td class="rouge-code"><pre><span class="c"># Mendeklarasikan IP sebagai perintah/command</span>
-<span class="nv">IP</span><span class="o">=</span><span class="si">$(</span>ifconfig | <span class="nb">grep</span> <span class="s2">"inet "</span> | <span class="nb">grep</span> <span class="nt">-v</span> 127.0.0.1<span class="si">)</span>
+<span class="nv">IP</span><span class="o">=</span><span class="si">$(</span>ifconfig | <span class="nb">grep</span> <span class="nt">-v</span> 127.0.0.1 | <span class="nb">grep</span> <span class="s2">"inet "</span><span class="si">)</span> 
 
 <span class="c"># Membuka port dengan port 8000</span>
 <span class="c"># disini kalian bisa ganti port terserah kalian</span>
@@ -683,7 +683,7 @@ yang dan tambah nomer port nya tadi, ketik di browser hp anda, contoh:</p>
 <span class="c"># Menuggu Merestart iptables</span>
 <span class="nb">echo</span> <span class="s2">""</span>
 <span class="nb">echo</span> <span class="s2">"Menuggu iptables terestart"</span>
-<span class="nb">sleep </span>3s
+<span class="nb">sleep </span>1s
 
 <span class="c"># Menampilkan IP</span>
 <span class="nb">echo</span> <span class="s2">""</span>
@@ -842,16 +842,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
         
         
         
-      <li><a href="/blog/posts/akses-port-linux-di-android/">Akses port Linux di Android</a></li>
-      
-        
-        
-        
-      <li><a href="/blog/posts/install-tkinter-arch-linux/">Cara install tkinter di Arch linux</a></li>
-      
-        
-        
-        
       <li><a href="/blog/posts/cara-menambah-PATH-di-linux/">Cara Menambah PATH di Linux</a></li>
       
         
@@ -863,6 +853,16 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
         
         
       <li><a href="/blog/posts/banteng-dan-kawan2/">Banteng pdi perjuangan</a></li>
+      
+        
+        
+        
+      <li><a href="/blog/posts/wine-gak-ada-suara/">Wine Tidak ada Suara</a></li>
+      
+        
+        
+        
+      <li><a href="/blog/posts/akses-port-linux-di-android/">Akses port Linux di Android</a></li>
       
     </ul>
   </div> <!-- #access-lastmod -->
@@ -945,10 +945,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
     
     
     
-      
-        
-        
-
   
     
     
@@ -984,28 +980,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
         
         
 
@@ -1025,43 +999,6 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
     
   
     
@@ -1129,7 +1066,120 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
     
     
     
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1333,7 +1383,7 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
       <a class="post-tag" href="/blog/tags/linux/">Linux</a>
     
       
-      <a class="post-tag" href="/blog/tags/arch-linux/">arch linux</a>
+      <a class="post-tag" href="/blog/tags/arch-linux/">Arch Linux</a>
     
       
       <a class="post-tag" href="/blog/tags/emulator/">emulator</a>
@@ -1348,16 +1398,16 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
       <a class="post-tag" href="/blog/tags/android/">Android</a>
     
       
-      <a class="post-tag" href="/blog/tags/arch-linux/">Arch Linux</a>
+      <a class="post-tag" href="/blog/tags/arch-linux/">arch linux</a>
+    
+      
+      <a class="post-tag" href="/blog/tags/audio/">audio</a>
     
       
       <a class="post-tag" href="/blog/tags/audio/">Audio</a>
     
       
       <a class="post-tag" href="/blog/tags/canda/">canda</a>
-    
-      
-      <a class="post-tag" href="/blog/tags/chrome/">chrome</a>
     
 
     </div>
@@ -1410,6 +1460,19 @@ terupdate dengan sendirinya. Hal ini sangat membantu saat kalian apalagi bagi sa
 
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
   
@@ -1943,10 +2006,6 @@ se...
     
     
     
-      
-        
-        
-
   
     
     
@@ -1982,28 +2041,6 @@ se...
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
         
         
 
@@ -2023,43 +2060,6 @@ se...
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
     
   
     
@@ -2127,7 +2127,120 @@ se...
     
     
     
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2331,7 +2444,7 @@ se...
       <a class="post-tag" href="/blog/tags/linux/">Linux</a>
     
       
-      <a class="post-tag" href="/blog/tags/arch-linux/">arch linux</a>
+      <a class="post-tag" href="/blog/tags/arch-linux/">Arch Linux</a>
     
       
       <a class="post-tag" href="/blog/tags/emulator/">emulator</a>
@@ -2346,16 +2459,16 @@ se...
       <a class="post-tag" href="/blog/tags/android/">Android</a>
     
       
-      <a class="post-tag" href="/blog/tags/arch-linux/">Arch Linux</a>
+      <a class="post-tag" href="/blog/tags/arch-linux/">arch linux</a>
+    
+      
+      <a class="post-tag" href="/blog/tags/audio/">audio</a>
     
       
       <a class="post-tag" href="/blog/tags/audio/">Audio</a>
     
       
       <a class="post-tag" href="/blog/tags/canda/">canda</a>
-    
-      
-      <a class="post-tag" href="/blog/tags/chrome/">chrome</a>
     
 
     </div>
