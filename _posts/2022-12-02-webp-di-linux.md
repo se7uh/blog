@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara membuka file WebP di Linux
-date: 2022-11-24 00:06:25 0500
+date: 2022-12-02 00:06:25 0500
 categories: [Tutorial, Linux]
 tags: [Linux, WebP, Gambar]
 ---
