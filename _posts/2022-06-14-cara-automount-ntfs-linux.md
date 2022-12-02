@@ -2,7 +2,7 @@
 layout: post
 title: Cara Auto Mount NTFS di linux
 date: 2022-06-14 18:32:00 -0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 ---
 
 # Hello Welcome back

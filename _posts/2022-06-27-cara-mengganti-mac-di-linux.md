@@ -2,8 +2,8 @@
 layout: post
 title: Cara mengganti MAC ADDRESS di linux
 date: 2022-07-18 18:32:00 -0500
-categories: [Linux, Tutorial]
-tags: [wifi, trik]
+categories: [Tutorial, Linux]
+tags: [Wifi, Trik]
 ---
 
 Assalamualaikum semua, jadi kali ini saya mau share cara mengganti Mac Address Di Linux kalian ;)<br />

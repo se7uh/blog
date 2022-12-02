@@ -2,8 +2,8 @@
 layout: post
 title: Mengatasi Opensearch tidak berfungsi di chrome
 date: 2022-05-31 18:32:00 -0500
-categories: [browser]
-tags: [chrome]
+categories: [Browser, Tutorial]
+tags: [Chrome]
 ---
 
 

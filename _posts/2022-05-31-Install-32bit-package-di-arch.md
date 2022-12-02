@@ -2,7 +2,7 @@
 layout: post
 title: cara Install paket 32bit di Linux
 date: 2022-05-31 18:32:00 -0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 ---
 
 ## Arch Linux 

@@ -2,7 +2,7 @@
 layout: post
 title: Alternatif untuk mpsyt (Mps-YouTube)
 date: 2022-07-18 18:32:00 -0500
-categories: [Linux, Alternatif]
+categories: [Alternatif, Linux]
 tags: []
 --- 
 assalamualaikum, halo kawan. Jadi saya mau sher alternatif mpsyt.

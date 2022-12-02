@@ -2,8 +2,8 @@
 layout: post
 title: Mengatasi Mouse Kehilangan fokus di wine
 date: 2022-05-31 18:32:00 -0500
-categories: [Linux, Tutorial]
-tags: [wine, emulator]
+categories: [Tutorial, Linux]
+tags: [Wine, Emulator]
 ---
 
 ### Mengatasi Mouse Di Wine Kehilangan Fokus

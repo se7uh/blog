@@ -2,7 +2,7 @@
 layout: post
 title: Akses port Linux di Android
 date: 2022-11-07 04:36:25 0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 tags: [Linux, Android]
 ---
 Assalamualaikum kawan jadi kali ini saya mau buat tutorial cara akses port di linux di android.

@@ -2,7 +2,7 @@
 layout: post
 title: Cara auto-login di XFCE
 date: 2022-11-23 04:36:25 0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 tags: [Linux, XFCE]
 ---
 Assalamualaikum kawan.

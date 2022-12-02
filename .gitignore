@@ -12,6 +12,7 @@
 # bundler cache
 # _site
 vendor
+_site
 
 # rubygem
 *.gem

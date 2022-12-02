@@ -2,7 +2,7 @@
 layout: post
 title: Cara update git local ke perubahan terbaru di github
 date: 2022-11-24 00:06:25 0500
-categories: [Git, Tutorial]
+categories: [Tutorial, Git]
 tags: [Linux, Git]
 ---
 assalamualaikum kawan.

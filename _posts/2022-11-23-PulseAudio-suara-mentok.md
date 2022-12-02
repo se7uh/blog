@@ -2,7 +2,7 @@
 layout: post
 title: PulseAudio, menuju tak terbatas dan melampauinya
 date: 2022-11-23 04:36:25 0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 tags: [Linux, Audio, PulseAudio]
 ---
 

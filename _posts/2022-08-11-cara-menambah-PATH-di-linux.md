@@ -2,7 +2,7 @@
 layout: post
 title: Cara Menambah PATH di Linux
 date: 2022-08-10 18:32:00 -0500
-categories: [Linux, Tutorial]
+categories: [Tutorial, Linux]
 ---
 Assalamualaikum.
 halo, ini cara **Cara Menambah PATH di linux**.<br>
