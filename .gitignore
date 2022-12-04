@@ -10,9 +10,8 @@
 !.stylelintrc.json
 
 # bundler cache
-# _site
-vendor
 _site
+vendor
 
 # rubygem
 *.gem
