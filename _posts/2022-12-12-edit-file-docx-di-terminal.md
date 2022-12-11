@@ -9,7 +9,7 @@ Assalamualaikum kawan
 
 jadi hp saya penyimpanan nya cuma 16gb, buat download wps kemakan sekitar 400mb dan itu sangat
 besar bagi saya. Oleh karena itu saya cari alternatif gimana caranya edit/buat file **docx** di
-terminal Yaitu Pakai [Pandoc](pandoc.org) 
+terminal Yaitu Pakai [Pandoc](https://pandoc.org/) 
 
 1. Pasang Termux dan install pandoc:
 ```terminal
@@ -29,4 +29,4 @@ Setelah cara ini selesai Lakukan cara ke 2.
 
 4. Oke itu ajah, Sekian
 
-note : kunjungi web resmi [Pandoc](pandoc.org) untuk tutorial lebih lanjut
+note : kunjungi web resmi [Pandoc](https://pandoc.org/) untuk tutorial lebih lanjut
