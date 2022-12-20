@@ -1,14 +1,16 @@
->---
+---
 layout: post
 title: Cara Pindahkan Data Android di Kartu SD
 date: 2022-12-20 13:33:25 0500
 categories: [Tutorial, Android]
-tags: [Linux, Android
---- HP WAJIB ROOT
+tags: [Linux, Android]
+---
+
+>HP WAJIB ROOT
 {: .prompt-danger }
 
 > Mohon maaf jika kurang bisa dipahami, karena tutorial ini buat ingat2 saja jika saya lupa.
-kalau mau tutor tanyakan ke saya lngsung :)
+kalau mau tutor tanyakan ke saya langsung :)
 {: .prompt-info }
 
 1. pertama kalian perlu format kartu sd kalian agar bisa menjadi internal
