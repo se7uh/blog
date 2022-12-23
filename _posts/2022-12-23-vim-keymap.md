@@ -18,4 +18,4 @@ tags: [Vim, Neovim]
 
 | ACTION                    | MAPPING       |
 |:-------------------       |:------------- | 
-| pilih/select satu line    |  `V`          |
+| select satu line          |  `V`          |
