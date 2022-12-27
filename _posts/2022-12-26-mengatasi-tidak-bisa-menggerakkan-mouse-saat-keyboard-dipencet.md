@@ -36,4 +36,4 @@ xinput set-prop 11 310 0
 
 dan selesai.
 
-Credit:[ScottishTapWater](https://unix.stackexchange.com/a/697672/518631) 
+Credit : [ScottishTapWater](https://unix.stackexchange.com/a/697672/518631) 
