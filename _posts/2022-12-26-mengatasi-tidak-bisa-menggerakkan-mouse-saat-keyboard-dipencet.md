@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mengatasi Tidak Gerak Mouse saat keyboard dipencet
+title: Mengatasi Mouse Tidak Gerak saat keyboard dipencet
 date: 2022-12-27 15:46:25 0500
 categories: [Tutorial, Linux]
 tags: [Linux, X11]
