@@ -19,3 +19,4 @@ tags: [Vim, Neovim]
 | ACTION                    | MAPPING       |
 |:-------------------       |:------------- | 
 | select satu line          |  `V`          |
+| Keluar                    |  `Shift+ZZ`   |
