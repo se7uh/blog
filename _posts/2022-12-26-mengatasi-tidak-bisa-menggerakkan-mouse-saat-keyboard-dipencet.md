@@ -6,7 +6,7 @@ categories: [Tutorial, Linux]
 tags: [Linux, X11]
 ---
 
->**Khusus Pengguna X11. Untuk Wayland saya belum tahu.**
+>**Khusus Pengguna X11.**
 {: .prompt-danger }
 
 - Kalian ke terminal dan ketik `xinput`
@@ -36,4 +36,5 @@ xinput set-prop 11 310 0
 
 dan selesai.
 
+Gnome Wayland : [StackOverflow](https://askubuntu.com/a/1085401/1575501) 
 Credit : [ScottishTapWater](https://unix.stackexchange.com/a/697672/518631) 
