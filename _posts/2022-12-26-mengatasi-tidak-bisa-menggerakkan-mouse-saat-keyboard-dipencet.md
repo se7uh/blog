@@ -3,11 +3,10 @@ layout: post
 title: Mengatasi Mouse Tidak Gerak saat keyboard dipencet
 date: 2022-12-27 15:46:25 0500
 categories: [Tutorial, Linux]
-tags: [Linux, X11]
+tags: [Linux, X11, Wayland]
 ---
 
->**Khusus Pengguna X11.**
-{: .prompt-danger }
+# X11
 
 - Kalian ke terminal dan ketik `xinput`
 
@@ -36,5 +35,19 @@ xinput set-prop 11 310 0
 
 dan selesai.
 
-Gnome Wayland : [StackOverflow](https://askubuntu.com/a/1085401/1575501) 
 Credit : [ScottishTapWater](https://unix.stackexchange.com/a/697672/518631) 
+
+# Wayland
+
+- Sway : disable dwt di config. kyak dibawh :
+```config
+  input "2:7:SynPS/2_Synaptics_TouchPad" {
+      dwt disabled
+      tap enabled
+      natural_scroll disabled
+      middle_emulation enabled
+  }
+```
+
+- Gnome Wayland : [StackOverflow](https://askubuntu.com/a/1085401/1575501)
+
