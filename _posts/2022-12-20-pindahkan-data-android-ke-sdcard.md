@@ -9,8 +9,8 @@ tags: [Linux, Android]
 >HP WAJIB ROOT
 {: .prompt-danger }
 
-> Mohon maaf jika kurang bisa dipahami, karena tutorial ini buat ingat2 saja jika saya lupa.
-kalau mau tutor tanyakan ke saya langsung :)
+> Mohon maaf jika kurang bisa dipahami, karena tutorial ini saya buat untuk ingat2 saja jika saya lupa.
+kalau mau tutor tanyakan langsung ke saya :)
 {: .prompt-info }
 
 1. pertama kalian perlu format kartu sd kalian agar bisa menjadi internal
