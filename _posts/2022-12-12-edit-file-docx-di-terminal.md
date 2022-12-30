@@ -5,6 +5,9 @@ date: 2022-12-12 00:06:25 0500
 categories: [Tutorial, Linux]
 tags: [Linux, Termux, Pandoc]
 ---
+> INI CUMA BUAT CARI PENGALAMAN SAJA, TIDAK DIREKOMENDASIKAN UNTUK PAKE INI BUAT PRODUKTIFITAS
+{: .prompt-danger }
+
 Assalamualaikum kawan
 
 jadi hp saya penyimpanan nya cuma 16gb, buat download wps kemakan sekitar 400mb dan itu sangat
