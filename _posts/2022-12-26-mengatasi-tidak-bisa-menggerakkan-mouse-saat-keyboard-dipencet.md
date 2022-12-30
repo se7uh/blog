@@ -6,9 +6,9 @@ categories: [Tutorial, Linux]
 tags: [Linux, X11, Wayland]
 ---
 
-# X11
+## X11
 
-- Kalian ke terminal dan ketik `xinput`
+1. Kalian ke terminal dan ketik `xinput`
 
 setelah itu akan keluar seperti ini :
 ```
@@ -19,14 +19,14 @@ setelah itu akan keluar seperti ini :
 
 disini kalian cari nama Touchpad kalian, di kasus saya nama nya ada di baris ke-3 dengan **id=11**
 
-- kemudian kalian ketik `xinput list-props 11`
+2. kemudian kalian ketik `xinput list-props 11`
 
 nanti akan keluar banyak teks, nah di sana kalian cari teks ini :
 ```
 	libinput Disable While Typing Enabled (310):	1
 	libinput Disable While Typing Enabled Default (311):	1
 ```
-- kalian lihat disana nomer 310. kita set value nomer 310 ke 0, begini perintah full nya :
+3. kalian lihat disana nomer 310. kita set value nomer 310 ke 0, begini perintah full nya :
 
 
 ```terminal
@@ -37,7 +37,7 @@ dan selesai.
 
 Credit : [ScottishTapWater](https://unix.stackexchange.com/a/697672/518631) 
 
-# Wayland
+## Wayland
 
 - Sway : disable dwt di config. kyak dibawh :
 ```config
