@@ -20,7 +20,7 @@ sudo pacman -S pulseaudio pulseaudiocontrol pulseaudio-equalizer
 sudo apt-get install pulseaudio pulseaudiocontrol pulseaudio-equalizer
 ```
 > yg apt saya belum pernah coba, tapi anda coba saja :)
-{: .prompt-info }
+{: .prompt-warning }
 setelah itu kalian buat shortcut keyboard agar kalian nanti tdk ngetik perintah banyak2
 
 pergi ke settingan keyboard dan tambahkan shortcut terserah kalian dan 
