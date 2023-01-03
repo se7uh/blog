@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: Neovim PHP + HTML
+title: Neovim PHP & HTML
 date: 2023-01-03 16:32:25 0500
 categories: [Tutorial, Vim]
 tags: [Linux, Vim, Neovim]
