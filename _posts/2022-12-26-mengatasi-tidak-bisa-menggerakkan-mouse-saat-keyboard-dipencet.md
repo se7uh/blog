@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mengatasi Mouse Tidak Gerak saat keyboard dipencet
+title: Mengatasi Mouse Tidak Gerak saat keyboard dipencet di Linux
 date: 2022-12-27 15:46:25 0500
 categories: [Tutorial, Linux]
 tags: [Linux, X11, Wayland]
