@@ -6,7 +6,7 @@ categories: [Tutorial, Android]
 tags: [Linux, Android]
 ---
 
->HP WAJIB ROOT
+>**HP WAJIB ROOT**
 {: .prompt-danger }
 
 > Mohon maaf jika kurang bisa dipahami, karena tutorial ini saya buat untuk ingat2 saja jika saya lupa.
