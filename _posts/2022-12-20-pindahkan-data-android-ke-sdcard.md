@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara Pindahkan Data Android di Kartu SD
+title: Cara Pindahkan Data Android ke Kartu SD
 date: 2022-12-20 13:33:25 0500
 categories: [Tutorial, Android]
 tags: [Linux, Android]
