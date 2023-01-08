@@ -25,6 +25,8 @@ adb shell dumpsys battery reset
 ```
 ![before](/gambar/cara-mengganti-persentase-baterai/before.webp) 
 
+Credit : [Sagar](https://stackoverflow.com/users/4390381/sagar)<br>
+SC : [StackOverflow](https://stackoverflow.com/a/50756355/15596956) 
 ## Root
 Untuk __Pengguna Root__ Kalian __tidak usah pakai adb__, kalian tinggal masuk `su` dan ketik :
 ```
@@ -38,5 +40,5 @@ dumpsys battery reset
 
 dann selesai :)
 
-Credit : [Sagar](https://stackoverflow.com/users/4390381/sagar)<br>
-SC : [StackOverflow](https://stackoverflow.com/a/50756355/15596956) 
+Credit : [Savage Andy](https://www.youtube.com/@savageandy881)<br>
+SC : [YouTube](https://youtu.be/Zw19acX-RHw) 
