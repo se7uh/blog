@@ -2,8 +2,8 @@
 layout: post
 title: Alternatif untuk mpsyt (Mps-YouTube)
 date: 2022-07-18 18:32:00 -0500
-categories: [Alternatif, Linux]
-tags: []
+categories: [Linux, Alternatif]
+tags: [Audio]
 --- 
 assalamualaikum, halo kawan. Jadi saya mau sher alternatif mpsyt.
 buat kalian yang tidak tau, mpsyt adalah program dimana kalian bisa meliat/mendengar video/music youtube lewat terminal 
