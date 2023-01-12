@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Mengganti Persentase Baterai Android
-date: 2023-01-08 01:32:25 0500
+date: 2022-10-08 01:32:25 0500
 categories: [Tutorial, Android]
 tags: [Android, adb]
 ---
