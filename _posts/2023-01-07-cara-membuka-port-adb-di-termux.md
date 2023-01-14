@@ -2,7 +2,7 @@
 layout: post
 title: Cara Membuka Port adb di Termux
 date: 2023-01-07 01:32:25 0500
-categories: [Tutorial, Linux]
+categories: [Tutorial, Termux]
 tags: [Linux, Termux, Android, adb]
 ---
 
