@@ -10,11 +10,19 @@ jadi saya mau sher cara auto login di XFCE, karena setiap laptop saya hidup haru
 jadinya saya males :|<br>
 oke langsung ke tutor nya kawan :)
 ## Caranya
-kalian edit file di **/etc/lightdm/lightdm.conf** dengan teks editor kesukaan kalian
-dan tambah kan teks ini :
+1. kalian buat group `autologin`
 ```
-[Seat:*]
-autologin-session=
+sudo groupadd -r  autologin
+```
+2. kalian tambahkan username kalian ke group autologin
+```
+sudo gpasswd -a azizz autologin
+```
+
+3. kalian edit file di **/etc/lightdm/lightdm.conf** dengan teks editor kesukaan kalian
+cari kata `autologin-user` dan hapus tanda pagarnya agar tidak dianggap komentar :
+```
 autologin-user=(Nama username mu) <-- hapus tanda kurung nya
-autologin-user-timeout=0
 ```
+
+4. Selesai 
