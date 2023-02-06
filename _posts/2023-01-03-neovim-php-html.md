@@ -9,6 +9,13 @@ tags: [Linux, Vim, Neovim]
 Halo kawan, jadi waktu saya ngoding php di neovim ada masalah, yaitu autocomplete html tidak
 keluar dan itu tentu masalah besar, karena itu saya bikin tutor ini.
 
+kalian tinggal ketik
+```
+:set filetype=html | set syntax=php
+```
+
+>**CARA DIBAWAH TIDAK EFISIEN LAGI, PAKAI CARA DIATAS**
+{: .prompt-danger }
 1. Pertama kalian set file php ke php.html (mksudnya php & html) :
 ```
 :set filetype=php.html
