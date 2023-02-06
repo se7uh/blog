@@ -109,7 +109,23 @@ jika kalian dusuruh masukkan username masukkan root, contoh:
 **username: root**<br>
 **password: {password yg kalian masukkan tadi}**
 
-dan selamat, tapi kalian tinggal install Desktop Enviroment aja, tapi lanjut di next
-tutor ya kawan, pegel nulis aq..
+lanjut kalian tambahkan user baru
+```terminal
+useradd -mg wheel azizz  <-- kalian bisa ganti azizz ke terserah kalian
+```
+selanjutnya kalian berikan password untuk user tersebut
+```terminal
+passwd azizz
+```
+jika sudah kalian edit file `/etc/sudoers` menggunakan vim
+```terminal
+vim /etc/sudoers
+```
+Lanjut kalian cari kata ini (dibawah sendiri) dan hapus tanda pagar nya
+```sh
+# %wheel ALL=(ALL) ALL
+```
+
+dan selamat, tapi kalian tinggal install Desktop Enviroment aja.
 
 credit : [@Mental outlaw](https://www.youtube.com/c/mentaloutlaw)
