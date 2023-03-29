@@ -30,7 +30,7 @@ nanti akan keluar banyak teks, nah di sana kalian cari teks ini :
 	libinput Disable While Typing Enabled (310):	1
 	libinput Disable While Typing Enabled Default (311):	1
 ```
-3.- kalian lihat disana nomer 310. kita set value nomer 310 ke 0, begini perintah full nya :
+3.- kalian lihat disana nomer 310. kita set value nomer 310 dari **1 ke 0**, begini perintah full nya :
 
 
 ```terminal
