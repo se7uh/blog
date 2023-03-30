@@ -7,7 +7,7 @@ tags: [Linux, Vim, Neovim]
 ---
 
 Halo kawan, jadi waktu saya ngoding php di neovim ada masalah, yaitu autocomplete html tidak
-keluar dan itu tentu masalah besar, karena itu saya bikin tutor ini.
+keluar saat menggunakan filetype php dan itu tentu masalah besar, karena itu saya bikin tutor ini.
 
 kalian tinggal ketik
 ```
