@@ -3,7 +3,7 @@ layout: post
 title: Cara Menghapus data Aplikasi di terminal
 date: 2023-04-25 01:32:25 0500
 categories: [Tutorial, Android]
-tags: [Android]
+tags: [Android, Termux, adb]
 ---
 
 Assalmualaikum Kawan, Jadi Saya buat tutor ini karena trial Poweramp saya habis. trus
