@@ -10,7 +10,7 @@ Assalamualaikum kawan.<br>
 Jadi disini saya mau bagikan cara mengatasi magisk error code 8.<br>
 Sebelum itu saya mau ngasih tau kenapa terjadi error tersebut.<br>
 ## Alasannya adalah karena
-- Magisk tidak mengetahui kita menggunakan prosessor 32-bit atau 64-bit.
+- Magisk salah pasang busybox 64-bit di prosessor 32-bit.
 
 ## Cara Mengatasi
 1. Kalian Pasang module [busybox-ndk](https://github.com/Magisk-Modules-Repo/busybox-ndk) dan restart.
