@@ -10,12 +10,12 @@ Jadi saat saya menggunakan Fedora 39 dan memasang Cloudflare Warp,
 saya dapat error **DNS lookup failure** di status Zero Trust Client.
 
 Untuk cara mengatasinya kalian tambahkan kode dibawah ini ke `/etc/systemd/resolved.conf` :
-```
+```sh
 ResolveUnicastSingleLabel=yes
 ```
 
 setelah itu kalian restart service nya:
-```
+```sh
 sudo systemctl restart systemd-resolved.service
 ```
 
