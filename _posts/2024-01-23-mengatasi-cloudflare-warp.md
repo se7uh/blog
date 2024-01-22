@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengatasi Cloudflare Warp error DNS lookup failure di Linux
-date: 2023-09-13 01:32:25 0500
+date: 2024-01-23 01:32:25 0500
 categories: [Tutorial, Linux]
 tags: [Wifi]
 ---
