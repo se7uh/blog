@@ -19,4 +19,4 @@ setelah itu kalian restart service nya:
 sudo systemctl restart systemd-resolved.service
 ```
 
-sc : (Reddit)[https://www.reddit.com/r/CloudFlare/comments/12yrbkz/comment/joy2dx0/?utm_source=share&utm_medium=web2x&context=3]¹, (GitHub)[https://github.com/cloudflare/cloudflare-docs/blob/production/content/cloudflare-one/faq/teams-troubleshooting.md#warp-on-linux-shows-dns-connectivity-check-failed-with-reason-dnslookupfailed]²
+sc : [Reddit](https://www.reddit.com/r/CloudFlare/comments/12yrbkz/comment/joy2dx0/?utm_source=share&utm_medium=web2x&context=3)¹, [GitHub](https://github.com/cloudflare/cloudflare-docs/blob/production/content/cloudflare-one/faq/teams-troubleshooting.md#warp-on-linux-shows-dns-connectivity-check-failed-with-reason-dnslookupfailed)²
