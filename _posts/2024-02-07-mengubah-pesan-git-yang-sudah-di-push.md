@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara mengubah pesan git yang sudah di push
+title: Cara mengubah pesan commit git yang sudah di push
 date: 2024-02-07 01:32:25 0500
 categories: [Tutorial, Git]
 tags: [Git]
