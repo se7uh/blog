@@ -5,7 +5,7 @@ date: 2024-03-04 01:32:25 0500
 categories: [Tutorial, Linux]
 tags: [Audio, PulseAudio]
 ---
-> Saya coba di Fedora 39
+> **Saya coba di Fedora 39** 
 {: .prompt-info }
 
 Karena Pipewire suaranya tidak bisa lebih dari 100% menggunakan Shortcut, jadi saya balik pakai Pulseaudio. Caranya :
