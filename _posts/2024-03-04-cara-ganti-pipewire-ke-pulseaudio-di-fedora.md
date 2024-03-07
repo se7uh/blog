@@ -14,20 +14,16 @@ Karena Pipewire suaranya tidak bisa lebih dari 100% menggunakan Shortcut, jadi s
 ```sh
 sudo dnf swap --allowerasing pipewire-pulseaudio pulseaudio
 ```
-2. Hapus paket Pipewire yg lain :
-```sh
-sudo dnf remove pipewire-alsa pipewire-jack-audio-connection-kit
-```
-3. Pasang ALSA dan utility (kegunaan) lainnya untuk Pulseaudio :
+2. Pasang ALSA dan utility (kegunaan) lainnya untuk Pulseaudio :
 ```sh
 sudo dnf install alsa-plugins-pulseaudio pulseaudio-utils
 ```
-4. Jalankan service Pulseaudio setiap Komputer hidup :
+3. Jalankan service Pulseaudio setiap Komputer hidup :
 ```sh
 sudo systemctl --global enable pulseaudio.service
 ```
-5. Restart Komputer
-6. Jika setelah di restart tidak ada suara, ketik di terminal :
+4. Restart Komputer
+5. Jika setelah di restart tidak ada suara, ketik di terminal :
 ```sh
 pulseaudio -k
 ```
