@@ -26,6 +26,8 @@ sudo systemctl --global enable pulseaudio.service
 5. Jika setelah di restart tidak ada suara, ketik di terminal :
 ```sh
 pulseaudio -k
+pulseaudio --start
 ```
+6. Restart lagi
 
 Refrensi: [redhat](https://access.redhat.com/articles/6958410)
