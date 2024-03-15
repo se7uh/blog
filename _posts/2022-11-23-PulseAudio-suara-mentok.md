@@ -19,6 +19,10 @@ sudo pacman -S pulseaudio pulseaudiocontrol pulseaudio-equalizer
 ```terminal
 sudo apt-get install pulseaudio pulseaudiocontrol pulseaudio-equalizer
 ```
+## dnf  (fedora based)
+```terminal
+sudo dnf install pulseaudio-utils pipewire-utils
+```
 > yg apt saya belum pernah coba, tapi anda coba saja :)
 {: .prompt-warning }
 setelah itu kalian buat shortcut keyboard agar kalian nanti tdk ngetik perintah banyak2
