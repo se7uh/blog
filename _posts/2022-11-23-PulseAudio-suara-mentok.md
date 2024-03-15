@@ -21,7 +21,7 @@ sudo apt-get install pulseaudio pulseaudiocontrol pulseaudio-equalizer
 ```
 ## dnf  (fedora based)
 ```terminal
-sudo dnf install pulseaudio-utils pipewire-utils
+sudo dnf install pulseaudio-utils
 ```
 setelah itu kalian buat shortcut keyboard agar kalian nanti tdk ngetik perintah banyak2
 
