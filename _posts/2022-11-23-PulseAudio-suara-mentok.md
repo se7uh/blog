@@ -32,7 +32,7 @@ pactl -- set-sink-volume 0 +50%
 ```
 sebagai perintah yg dijalankan.
 
-> Jika perintah `pactl` diatas tidak bisa, kalian ketikkan perintah `pactl list sinks short`. Nanti disana akan ada nomor audio yang keluar. Nanti kalian ganti `0` diatas ke nomor yang ada.
+> Jika perintah `pactl` diatas tidak bisa, kalian ketikkan perintah `pactl list sinks short`. Nanti disana akan ada nomor audio yang keluar. Nanti kalian ganti `0` diatas ke nomor yang ada. ATAU kalian juga bisa menggunakan namanya (disebelah nomor) agar ketika nomornya berubah ketika di reboot tidak usah mengganti nomornya lagi.
 {: .prompt-info }
 
 dan selamat sekarang kalian sudah bisa atur volumenya sesuai keinginan kalian :).
