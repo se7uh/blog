@@ -23,8 +23,6 @@ sudo apt-get install pulseaudio pulseaudiocontrol pulseaudio-equalizer
 ```terminal
 sudo dnf install pulseaudio-utils pipewire-utils
 ```
-> yg apt saya belum pernah coba, tapi anda coba saja :)
-{: .prompt-warning }
 setelah itu kalian buat shortcut keyboard agar kalian nanti tdk ngetik perintah banyak2
 
 pergi ke settingan keyboard dan tambahkan shortcut terserah kalian dan 
