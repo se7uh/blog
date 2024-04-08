@@ -9,8 +9,7 @@ tags: [Linux, Android]
 >**HP WAJIB ROOT**
 {: .prompt-danger }
 
-> Mohon maaf jika kurang bisa dipahami, karena tutorial ini saya buat untuk ingat2 saja jika saya lupa.
-kalau mau tutor tanyakan langsung ke saya :)
+> **Hanya Bekerja di Android 10 Kebawah, Karena Android 11+ mulai menggunakan [Scoped storage](https://source.android.com/docs/core/storage/scoped?hl=en)**
 {: .prompt-info }
 
 1. pertama kalian perlu format kartu sd kalian agar bisa menjadi internal
