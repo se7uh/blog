@@ -9,7 +9,7 @@ Untuk menginstall package npm sebagai user, anda perlu mengubah prefix npm ke us
 
 Untuk mengubah prefix kalian bisa gunakan perintah berikut ini :
 ```
-npm config set prefix '~/.local/
+npm config set prefix '~/.local/'
 ```
 
 refrensi: [Stackoverflow](https://stackoverflow.com/a/59227497/15596956)
