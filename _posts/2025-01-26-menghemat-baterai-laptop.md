@@ -1,7 +1,7 @@
 ---
 title: Cara Menghemat Baterai Laptop di Linux Menggunakan TLP
 author: azizz
-date: 2025-01-26 11:41:00 +0700
+date: 2025-01-26 11:41:00 0500
 categories: [Tutorial, Linux]
 tags: [tlp, battery, linux]
 pin: false
