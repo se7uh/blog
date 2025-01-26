@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengatasi WPS Office Force Close di Linux
-date: 2024-12-26 10:32:25 0500
+date: 2025-01-26 10:32:25 0500
 categories: [Tutorial, Linux]
 tags: [WPS]
 ---
