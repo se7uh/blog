@@ -1,0 +1,25 @@
+{%- comment -%}
+  Remove line numbers from Rouge highlighted code blocks
+  This include processes content to strip line number markup for use in feeds and search
+{%- endcomment -%}
+
+{%- assign content = include.content -%}
+
+{%- comment -%} Remove Rouge table-based line numbers {%- endcomment -%}
+{%- assign content = content | replace: '<table class="rouge-table"><tbody><tr>', '' -%}
+{%- assign content = content | replace: '</tr></tbody></table>', '' -%}
+{%- assign content = content | replace: '<td class="rouge-gutter gl">', '' -%}
+{%- assign content = content | replace: '<td class="rouge-code">', '' -%}
+{%- assign content = content | replace: '</td>', '' -%}
+
+{%- comment -%} Remove line number spans {%- endcomment -%}
+{%- assign content = content | replace: '<span class="lineno">', '' -%}
+{%- assign content = content | replace: '<span class="gl">', '' -%}
+
+{%- comment -%} Remove any remaining line number markup {%- endcomment -%}
+{%- assign content = content | replace: '<pre class="lineno">', '<pre>' -%}
+{%- assign content = content | replace: 'class="highlight linenos"', 'class="highlight"' -%}
+
+{%- comment -%} Clean up any extra whitespace or empty elements {%- endcomment -%}
+{%- assign content = content | replace: '<pre></pre>', '' -%}
+{%- assign content = content | replace: '<code></code>', '' -%}
